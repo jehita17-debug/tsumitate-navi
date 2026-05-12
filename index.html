@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>つみたてNAVI | 投資初心者のためのNISA・米国株・日本株ガイド</title>
+<meta name="description" content="つみたてNAVIは、投資初心者のための情報サイトです。NISA・つみたて投資・米国株・日本株を、毎朝7時にやさしく解説。資産形成の第一歩をサポートします。">
+<meta name="keywords" content="NISA,つみたて投資,米国株,日本株,投資初心者,資産形成,アフィリエイト">
+<meta property="og:title" content="つみたてNAVI | 投資初心者のためのNISA・米国株・日本株ガイド">
+<meta property="og:description" content="投資初心者のためのやさしい情報サイト。NISA・つみたて投資・米国株・日本株を毎朝7時に配信。">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="ja_JP">
+<link rel="canonical" href="./">
+<link rel="stylesheet" href="css/style.css">
+<link rel="alternate" type="application/rss+xml" title="つみたてNAVI RSS" href="feed.xml">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a href="./" class="site-logo">
+      <span class="logo-mark">N</span>
+      <span>つみたてNAVI</span>
+    </a>
+    <button class="menu-toggle" aria-label="メニュー">☰</button>
+    <nav class="site-nav" id="nav">
+      <a href="./#articles">記事一覧</a>
+      <a href="./#categories">カテゴリ</a>
+      <a href="about.html">サイトについて</a>
+      <a href="contact.html">お問い合わせ</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="hero-inner">
+    <h1>投資、<span class="accent">何から</span>始める？</h1>
+    <p>NISA・つみたて投資・米国株・日本株を、初心者にやさしく。<br>毎朝7時に最新記事をお届けします。</p>
+    <a href="#articles" class="hero-cta">最新記事を読む →</a>
+  </div>
+</section>
+
+<main class="container">
+
+  <section id="categories">
+    <h2 class="section-title">カテゴリから探す</h2>
+    <p class="section-sub">気になるテーマをクリック</p>
+    <div class="category-chips">
+      <a href="#articles" class="chip">NISA</a>
+      <a href="#articles" class="chip">つみたて投資</a>
+      <a href="#articles" class="chip">米国株</a>
+      <a href="#articles" class="chip">日本株</a>
+      <a href="#articles" class="chip">ETF・投資信託</a>
+      <a href="#articles" class="chip">資産形成の基礎</a>
+    </div>
+  </section>
+
+  <section id="articles">
+    <h2 class="section-title">最新記事</h2>
+    <p class="section-sub">毎朝7時更新</p>
+
+    <div class="article-grid" id="article-list">
+
+      <!-- ▼▼▼ 自動生成記事はここに追加されます ▼▼▼ -->
+
+      <article class="article-card">
+        <a href="articles/2026-05-12-nisa-start-guide.html">
+          <div class="article-thumb thumb-nisa">
+            <span class="article-thumb-label">NISA</span>
+            <span>N</span>
+          </div>
+          <div class="article-body">
+            <div class="article-date">2026.05.12</div>
+            <h3 class="article-title">【完全ガイド】新NISAの始め方｜投資初心者が最初にやる5ステップ</h3>
+            <p class="article-excerpt">新NISAをこれから始める初心者向けに、口座開設から最初の積立設定まで5ステップでわかりやすく解説します。</p>
+          </div>
+        </a>
+      </article>
+
+      <!-- ▲▲▲ 記事カードのテンプレ ▲▲▲ -->
+
+    </div>
+  </section>
+
+  <section class="cta-banner">
+    <h3>毎朝の更新を見逃さない</h3>
+    <p>RSSやブックマークで最新記事をチェック</p>
+    <a href="feed.xml" class="hero-cta">RSSを購読する</a>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <h4>つみたてNAVI</h4>
+      <p>投資初心者のための情報サイト。<br>NISA・つみたて投資・米国株・日本株を、毎朝7時にやさしく解説します。</p>
+    </div>
+    <div>
+      <h4>サイト情報</h4>
+      <ul>
+        <li><a href="about.html">サイトについて</a></li>
+        <li><a href="contact.html">お問い合わせ</a></li>
+        <li><a href="privacy.html">プライバシーポリシー</a></li>
+        <li><a href="disclaimer.html">免責事項</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>カテゴリ</h4>
+      <ul>
+        <li><a href="./#articles">NISA</a></li>
+        <li><a href="./#articles">つみたて投資</a></li>
+        <li><a href="./#articles">米国株</a></li>
+        <li><a href="./#articles">日本株</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="copyright">
+    © <span id="year">2026</span> つみたてNAVI All Rights Reserved.
+  </div>
+</footer>
+
+<script>
+  // モバイルメニュー
+  document.querySelector('.menu-toggle')?.addEventListener('click', () => {
+    document.getElementById('nav').classList.toggle('open');
+  });
+  // 年号
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>

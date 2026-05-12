@@ -1,0 +1,24 @@
+{
+  "topics": [
+    {"category": "NISA", "thumb_class": "thumb-nisa", "title_seed": "新NISAでよくある失敗パターンと回避法", "keywords": "NISA,失敗,初心者"},
+    {"category": "NISA", "thumb_class": "thumb-nisa", "title_seed": "つみたて投資枠と成長投資枠、初心者はどう使い分ける？", "keywords": "NISA,つみたて投資枠,成長投資枠"},
+    {"category": "NISA", "thumb_class": "thumb-nisa", "title_seed": "新NISAで人気の銘柄ランキング徹底解説", "keywords": "NISA,銘柄,人気"},
+    {"category": "NISA", "thumb_class": "thumb-nisa", "title_seed": "NISA口座の金融機関を変更する方法と注意点", "keywords": "NISA,金融機関変更"},
+    {"category": "つみたて投資", "thumb_class": "thumb-tsumitate", "title_seed": "ドルコスト平均法とは？仕組みとメリット・デメリット", "keywords": "ドルコスト平均法,つみたて投資"},
+    {"category": "つみたて投資", "thumb_class": "thumb-tsumitate", "title_seed": "20年つみたて投資をしたら本当にいくらになるのか試算", "keywords": "つみたて投資,シミュレーション"},
+    {"category": "つみたて投資", "thumb_class": "thumb-tsumitate", "title_seed": "毎月いくら積み立てればいい？年代別の目安", "keywords": "つみたて投資,金額,目安"},
+    {"category": "つみたて投資", "thumb_class": "thumb-tsumitate", "title_seed": "投資信託の信託報酬を比較して安いものを選ぶコツ", "keywords": "投資信託,信託報酬,比較"},
+    {"category": "米国株", "thumb_class": "thumb-us", "title_seed": "S&P500とは？初心者にもわかる仕組みと買い方", "keywords": "S&P500,米国株,初心者"},
+    {"category": "米国株", "thumb_class": "thumb-us", "title_seed": "全米株式（VTI）と全世界株式、どちらを選ぶ？", "keywords": "VTI,全世界株式,比較"},
+    {"category": "米国株", "thumb_class": "thumb-us", "title_seed": "米国高配当株ETFの選び方｜VYM・HDV・SPYDの違い", "keywords": "米国株,高配当,ETF"},
+    {"category": "米国株", "thumb_class": "thumb-us", "title_seed": "ドル建て・円建て投資信託、どちらが有利？", "keywords": "米国株,為替,ドル建て"},
+    {"category": "日本株", "thumb_class": "thumb-jp", "title_seed": "日本の高配当株の選び方｜配当利回りだけで選んではいけない理由", "keywords": "日本株,高配当,選び方"},
+    {"category": "日本株", "thumb_class": "thumb-jp", "title_seed": "株主優待を活用した投資戦略｜初心者向けの選び方", "keywords": "日本株,株主優待"},
+    {"category": "日本株", "thumb_class": "thumb-jp", "title_seed": "日経平均株価とTOPIX、何が違う？", "keywords": "日経平均,TOPIX,違い"},
+    {"category": "日本株", "thumb_class": "thumb-jp", "title_seed": "日本の個別株を買うときにチェックすべき5つの指標", "keywords": "日本株,個別株,指標"},
+    {"category": "資産形成", "thumb_class": "thumb-nisa", "title_seed": "投資を始める前に絶対やるべき家計の見直し", "keywords": "家計,投資,準備"},
+    {"category": "資産形成", "thumb_class": "thumb-nisa", "title_seed": "緊急資金はいくら必要？投資との優先順位", "keywords": "緊急資金,生活防衛資金"},
+    {"category": "資産形成", "thumb_class": "thumb-nisa", "title_seed": "iDeCoとNISA、どっちを優先すべき？", "keywords": "iDeCo,NISA,比較"},
+    {"category": "資産形成", "thumb_class": "thumb-nisa", "title_seed": "投資初心者がやってはいけない3つの行動", "keywords": "投資,失敗,初心者"}
+  ]
+}

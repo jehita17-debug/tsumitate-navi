@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{TITLE}} | つみたてNAVI</title>
+<meta name="description" content="{{EXCERPT}}">
+<meta name="keywords" content="{{KEYWORDS}}">
+<meta property="og:title" content="{{TITLE}}">
+<meta property="og:description" content="{{EXCERPT}}">
+<meta property="og:type" content="article">
+<meta property="og:locale" content="ja_JP">
+<link rel="canonical" href="../articles/{{SLUG}}.html">
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a href="../" class="site-logo">
+      <span class="logo-mark">N</span>
+      <span>つみたてNAVI</span>
+    </a>
+    <button class="menu-toggle" aria-label="メニュー">☰</button>
+    <nav class="site-nav" id="nav">
+      <a href="../#articles">記事一覧</a>
+      <a href="../#categories">カテゴリ</a>
+      <a href="../about.html">サイトについて</a>
+      <a href="../contact.html">お問い合わせ</a>
+    </nav>
+  </div>
+</header>
+
+<article class="article-page">
+  <header>
+    <div class="meta">
+      <span class="category-badge">{{CATEGORY}}</span>
+      <span>{{DATE}}</span>
+    </div>
+    <h1>{{TITLE}}</h1>
+    <p style="color:#6b7280; margin-top:8px;">{{EXCERPT}}</p>
+  </header>
+
+  {{CONTENT}}
+
+  <hr style="margin: 60px 0 30px; border: none; border-top: 1px solid #e5e7eb;">
+  <p style="font-size: 13px; color: #6b7280;">※本記事は情報提供を目的としたものであり、投資勧誘や特定の金融商品の推奨を行うものではありません。投資判断はご自身の責任で行ってください。詳細は<a href="../disclaimer.html">免責事項</a>をご確認ください。</p>
+
+  <p style="margin-top: 40px;"><a href="../#articles">← 記事一覧へ戻る</a></p>
+</article>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <h4>つみたてNAVI</h4>
+      <p>投資初心者のための情報サイト。<br>NISA・つみたて投資・米国株・日本株を、毎朝7時にやさしく解説します。</p>
+    </div>
+    <div>
+      <h4>サイト情報</h4>
+      <ul>
+        <li><a href="../about.html">サイトについて</a></li>
+        <li><a href="../contact.html">お問い合わせ</a></li>
+        <li><a href="../privacy.html">プライバシーポリシー</a></li>
+        <li><a href="../disclaimer.html">免責事項</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>カテゴリ</h4>
+      <ul>
+        <li><a href="../#articles">NISA</a></li>
+        <li><a href="../#articles">つみたて投資</a></li>
+        <li><a href="../#articles">米国株</a></li>
+        <li><a href="../#articles">日本株</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="copyright">
+    © <span id="year">2026</span> つみたてNAVI All Rights Reserved.
+  </div>
+</footer>
+
+<script>
+  document.querySelector('.menu-toggle')?.addEventListener('click', () => {
+    document.getElementById('nav').classList.toggle('open');
+  });
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
