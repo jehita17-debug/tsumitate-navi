@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://jehita17-debug.github.io/tsumitate-navi/</loc><priority>1.0</priority></url>
-  <url><loc>https://jehita17-debug.github.io/tsumitate-navi/about.html</loc><priority>0.5</priority></url>
-  <url><loc>https://jehita17-debug.github.io/tsumitate-navi/privacy.html</loc><priority>0.5</priority></url>
-  <url><loc>https://jehita17-debug.github.io/tsumitate-navi/disclaimer.html</loc><priority>0.5</priority></url>
-  <url><loc>https://jehita17-debug.github.io/tsumitate-navi/contact.html</loc><priority>0.5</priority></url>
-  <url><loc>https://jehita17-debug.github.io/tsumitate-navi/articles/2026-05-12-nisa-start-guide.html</loc><priority>0.8</priority></url>
+  <url><loc>https://jehita17-debug.github.io/tsumitate-navi/</loc><lastmod>2026-05-12</lastmod><priority>1.0</priority></url>
+  <url><loc>https://jehita17-debug.github.io/tsumitate-navi/about.html</loc><lastmod>2026-05-12</lastmod><priority>0.5</priority></url>
+  <url><loc>https://jehita17-debug.github.io/tsumitate-navi/privacy.html</loc><lastmod>2026-05-12</lastmod><priority>0.5</priority></url>
+  <url><loc>https://jehita17-debug.github.io/tsumitate-navi/disclaimer.html</loc><lastmod>2026-05-12</lastmod><priority>0.5</priority></url>
+  <url><loc>https://jehita17-debug.github.io/tsumitate-navi/contact.html</loc><lastmod>2026-05-12</lastmod><priority>0.5</priority></url>
+  <url><loc>https://jehita17-debug.github.io/tsumitate-navi/articles/2026-05-12-nisa-start-guide.html</loc><lastmod>2026-05-12</lastmod><priority>0.8</priority></url>
+  <url><loc>https://jehita17-debug.github.io/tsumitate-navi/articles/2026-05-12-NISA口座の金融機関を変更する方法と注意点.html</loc><lastmod>2026-05-12</lastmod><priority>0.8</priority></url>
 </urlset>
