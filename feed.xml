@@ -1,31 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>つみたてNAVI</title>
     <link>https://jehita17-debug.github.io/tsumitate-navi/</link>
-    <atom:link href="https://jehita17-debug.github.io/tsumitate-navi/feed.xml" rel="self" type="application/rss+xml" xmlns:atom="http://www.w3.org/2005/Atom"/>
+    <atom:link href="https://jehita17-debug.github.io/tsumitate-navi/feed.xml" rel="self" type="application/rss+xml" />
     <description>投資初心者のための情報サイト。NISA・つみたて投資・米国株・日本株を毎朝7時に配信。</description>
     <language>ja</language>
+    <lastBuildDate>Thu, 14 May 2026 08:39:47 +0900</lastBuildDate>
+    <item>
+      <title>米国高配当株ETFの選び方｜VYM・HDV・SPYDの違いを初心者にやさしく解説</title>
+      <link>https://jehita17-debug.github.io/tsumitate-navi/articles/2026-05-14-米国高配当株ETFの選び方VYMHDVSPYDの違い.html</link>
+      <description>配当金をもらいながら資産を増やしたい方に人気の米国高配当株ETF。VYM・HDV・SPYDの3つはどう違うのか、初心者向けにわかりやすく比較・解説します。</description>
+      <pubDate>Thu, 14 May 2026 07:00:00 +0900</pubDate>
+      <guid>https://jehita17-debug.github.io/tsumitate-navi/articles/2026-05-14-米国高配当株ETFの選び方VYMHDVSPYDの違い.html</guid>
+    </item>
     <item>
       <title>S&amp;P500とは？初心者にもわかる仕組みと買い方を徹底解説</title>
       <link>https://jehita17-debug.github.io/tsumitate-navi/articles/2026-05-14-sp500-guide.html</link>
-      <guid>https://jehita17-debug.github.io/tsumitate-navi/articles/2026-05-14-sp500-guide.html</guid>
-      <description>米国株投資の王道インデックス「S&amp;P500」を初心者向けにやさしく解説。仕組みから買い方まで具体的なシミュレーション付きで紹介します。</description>
+      <description>米国株投資の王道インデックス「S&amp;P500」を初心者向けにやさしく解説。指数の仕組み・連動商品の選び方・買い方の手順を、具体的なシミュレーション付きで紹介します。</description>
       <pubDate>Thu, 14 May 2026 07:00:00 +0900</pubDate>
+      <guid>https://jehita17-debug.github.io/tsumitate-navi/articles/2026-05-14-sp500-guide.html</guid>
     </item>
     <item>
       <title>ドルコスト平均法とは？仕組みとメリット・デメリットを初心者向けに解説</title>
       <link>https://jehita17-debug.github.io/tsumitate-navi/articles/2026-05-13-dollar-cost-averaging.html</link>
-      <guid>https://jehita17-debug.github.io/tsumitate-navi/articles/2026-05-13-dollar-cost-averaging.html</guid>
-      <description>つみたて投資の基本「ドルコスト平均法」を初心者向けにやさしく解説。具体的なシミュレーション付きで紹介します。</description>
+      <description>つみたて投資の基本「ドルコスト平均法」を初心者向けにやさしく解説。仕組み・メリット・デメリットを具体的なシミュレーション付きで紹介します。</description>
       <pubDate>Wed, 13 May 2026 07:00:00 +0900</pubDate>
+      <guid>https://jehita17-debug.github.io/tsumitate-navi/articles/2026-05-13-dollar-cost-averaging.html</guid>
     </item>
     <item>
       <title>【完全ガイド】新NISAの始め方｜投資初心者が最初にやる5ステップ</title>
       <link>https://jehita17-debug.github.io/tsumitate-navi/articles/2026-05-12-nisa-start-guide.html</link>
-      <guid>https://jehita17-debug.github.io/tsumitate-navi/articles/2026-05-12-nisa-start-guide.html</guid>
-      <description>新NISAをこれから始める初心者向けに、口座開設から最初の積立設定まで5ステップでわかりやすく解説</description>
+      <description>新NISAをこれから始める初心者向けに、口座開設から最初の積立設定まで5ステップでわかりやすく解説。月いくらから？銘柄は？という疑問にも答えます。</description>
       <pubDate>Tue, 12 May 2026 07:00:00 +0900</pubDate>
+      <guid>https://jehita17-debug.github.io/tsumitate-navi/articles/2026-05-12-nisa-start-guide.html</guid>
+    </item>
+    <item>
+      <title>NISA口座の金融機関を変更する方法と注意点【初心者向けガイド】</title>
+      <link>https://jehita17-debug.github.io/tsumitate-navi/articles/2026-05-12-NISA口座の金融機関を変更する方法と注意点.html</link>
+      <description>「もっと使いやすい証券会社に乗り換えたい」と思ったことはありませんか？NISA口座は年に1回だけ金融機関を変更できます。手続きの流れと注意点をわかりやすく解説します。</description>
+      <pubDate>Tue, 12 May 2026 07:00:00 +0900</pubDate>
+      <guid>https://jehita17-debug.github.io/tsumitate-navi/articles/2026-05-12-NISA口座の金融機関を変更する方法と注意点.html</guid>
     </item>
   </channel>
 </rss>
