@@ -280,21 +280,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-    else:
-        # API キーがなければダミー記事
-        print("[warn] ANTHROPIC_API_KEY not set, using dummy article body")
-        title = topic["title_seed"]
-        excerpt = f"{topic['category']}の基礎をやさしく解説します。"
-        body = f"""<div class="point-box"><div class="point-box-title">この記事でわかること</div><ul><li>{topic['title_seed']}の基本</li></ul></div>
-<h2>はじめに</h2><p>（本文は ANTHROPIC_API_KEY を設定すると自動生成されます）</p>
-<div class="point-box"><div class="point-box-title">まとめ</div><ul><li>仕組みを理解してから始めよう</li></ul></div>"""
-
-    slug = slugify(topic["title_seed"])
-    write_article(today, slug, title, excerpt, body, topic)
-    update_index(today, slug, title, excerpt, topic)
-    update_feed_and_sitemap()
-    print("[done]")
-
-
-if __name__ == "__main__":
-    main()
