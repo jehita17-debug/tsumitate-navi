@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b2545"/>
+      <stop offset="100%" stop-color="#134074"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.85" cy="0.15" r="0.6">
+      <stop offset="0%" stop-color="rgba(212,165,116,0.35)"/>
+      <stop offset="60%" stop-color="rgba(212,165,116,0.10)"/>
+      <stop offset="100%" stop-color="rgba(212,165,116,0)"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#d4a574"/>
+      <stop offset="100%" stop-color="#b88a5a"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+
+  <!-- Decorative chart line -->
+  <polyline points="80,470 220,440 340,420 460,360 580,340 700,280 820,250 940,200 1080,150"
+            fill="none" stroke="rgba(212,165,116,0.35)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <g fill="#d4a574">
+    <circle cx="220" cy="440" r="6"/>
+    <circle cx="460" cy="360" r="6"/>
+    <circle cx="700" cy="280" r="6"/>
+    <circle cx="940" cy="200" r="6"/>
+    <circle cx="1080" cy="150" r="8"/>
+  </g>
+
+  <!-- Logo mark -->
+  <g transform="translate(80,80)">
+    <circle cx="40" cy="40" r="40" fill="url(#gold)"/>
+    <text x="40" y="56" font-family="'Hiragino Sans','Yu Gothic','Meiryo',sans-serif"
+          font-size="42" font-weight="900" fill="#0b2545" text-anchor="middle">N</text>
+  </g>
+  <text x="180" y="135" font-family="'Hiragino Sans','Yu Gothic','Meiryo',sans-serif"
+        font-size="32" font-weight="800" fill="#ffffff" letter-spacing="2">つみたてNAVI</text>
+
+  <!-- Main copy -->
+  <text x="80" y="295" font-family="'Hiragino Sans','Yu Gothic','Meiryo',sans-serif"
+        font-size="78" font-weight="800" fill="#ffffff" letter-spacing="2">投資、<tspan fill="#d4a574">何から</tspan>始める？</text>
+
+  <text x="80" y="380" font-family="'Hiragino Sans','Yu Gothic','Meiryo',sans-serif"
+        font-size="34" font-weight="500" fill="rgba(255,255,255,0.88)" letter-spacing="1">NISA・つみたて投資・米国株・日本株を、初心者にやさしく。</text>
+
+  <!-- Pill / tags -->
+  <g font-family="'Hiragino Sans','Yu Gothic','Meiryo',sans-serif" font-size="22" font-weight="700" fill="#ffffff">
+    <g transform="translate(80,470)">
+      <rect width="120" height="44" rx="22" fill="rgba(212,165,116,0.18)" stroke="#d4a574" stroke-width="1.5"/>
+      <text x="60" y="29" text-anchor="middle">NISA</text>
+    </g>
+    <g transform="translate(220,470)">
+      <rect width="180" height="44" rx="22" fill="rgba(212,165,116,0.18)" stroke="#d4a574" stroke-width="1.5"/>
+      <text x="90" y="29" text-anchor="middle">つみたて投資</text>
+    </g>
+    <g transform="translate(420,470)">
+      <rect width="140" height="44" rx="22" fill="rgba(212,165,116,0.18)" stroke="#d4a574" stroke-width="1.5"/>
+      <text x="70" y="29" text-anchor="middle">米国株</text>
+    </g>
+    <g transform="translate(580,470)">
+      <rect width="140" height="44" rx="22" fill="rgba(212,165,116,0.18)" stroke="#d4a574" stroke-width="1.5"/>
+      <text x="70" y="29" text-anchor="middle">日本株</text>
+    </g>
+  </g>
+
+  <!-- Foot ribbon -->
+  <rect x="0" y="600" width="1200" height="30" fill="#d4a574"/>
+  <text x="600" y="621" font-family="'Hiragino Sans','Yu Gothic','Meiryo',sans-serif"
+        font-size="16" font-weight="700" fill="#0b2545" text-anchor="middle" letter-spacing="3">毎朝7時更新 ／ jehita17-debug.github.io/tsumitate-navi</text>
+</svg>

@@ -31,6 +31,8 @@ TOPICS_FILE = ROOT / "scripts" / "topics.json"
 
 JST = timezone(timedelta(hours=9))
 SITE_URL = os.environ.get("SITE_URL", "https://jehita17-debug.github.io/tsumitate-navi")
+SITE_NAME = "つみたてNAVI"
+OGP_IMAGE = f"{SITE_URL}/ogp.png"
 
 # ---------------------------------------------------------------------
 # トピック選択
@@ -127,13 +129,19 @@ JSONブロック以外は出力しないでください。
 def write_article(date_str: str, slug: str, title: str, excerpt: str,
                   body_html: str, topic: dict) -> Path:
     tpl = TEMPLATE.read_text(encoding="utf-8")
+    # JSON-LDとmetaタグでHTMLエスケープが必要
+    title_esc = esc(title)
+    excerpt_esc = esc(excerpt)
+    date_iso = f"{date_str}T07:00:00+09:00"
     html = (tpl
-            .replace("{{TITLE}}", title)
-            .replace("{{EXCERPT}}", excerpt)
-            .replace("{{KEYWORDS}}", topic.get("keywords", ""))
+            .replace("{{SITE_URL}}", SITE_URL)
+            .replace("{{TITLE}}", title_esc)
+            .replace("{{EXCERPT}}", excerpt_esc)
+            .replace("{{KEYWORDS}}", esc(topic.get("keywords", "")))
             .replace("{{SLUG}}", f"{date_str}-{slug}")
-            .replace("{{CATEGORY}}", topic["category"])
+            .replace("{{CATEGORY}}", esc(topic["category"]))
             .replace("{{DATE}}", date_str.replace("-", "."))
+            .replace("{{DATE_ISO}}", date_iso)
             .replace("{{CONTENT}}", body_html))
     out = ARTICLES_DIR / f"{date_str}-{slug}.html"
     out.write_text(html, encoding="utf-8")
@@ -200,10 +208,11 @@ def update_feed_and_sitemap():
     </item>""")
 
     rss = f"""<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>つみたてNAVI</title>
     <link>{SITE_URL}/</link>
+    <atom:link href="{SITE_URL}/feed.xml" rel="self" type="application/rss+xml" />
     <description>投資初心者のための情報サイト。NISA・つみたて投資・米国株・日本株を毎朝7時に配信。</description>
     <language>ja</language>
     <lastBuildDate>{datetime.now(JST).strftime('%a, %d %b %Y %H:%M:%S +0900')}</lastBuildDate>
@@ -216,11 +225,20 @@ def update_feed_and_sitemap():
 
     # ---- sitemap ----
     today = datetime.now(JST).strftime("%Y-%m-%d")
-    urls = [f"  <url><loc>{SITE_URL}/</loc><lastmod>{today}</lastmod><priority>1.0</priority></url>"]
-    for page in ["about.html", "privacy.html", "disclaimer.html", "contact.html"]:
-        urls.append(f"  <url><loc>{SITE_URL}/{page}</loc><lastmod>{today}</lastmod><priority>0.5</priority></url>")
+    urls = [f"  <url><loc>{SITE_URL}/</loc><lastmod>{today}</lastmod><changefreq>daily</changefreq><priority>1.0</priority></url>"]
+    static_pages = [
+        ("about.html", "monthly", "0.5"),
+        ("privacy.html", "yearly", "0.3"),
+        ("disclaimer.html", "yearly", "0.3"),
+        ("contact.html", "monthly", "0.4"),
+    ]
+    for page, freq, pri in static_pages:
+        urls.append(f"  <url><loc>{SITE_URL}/{page}</loc><changefreq>{freq}</changefreq><priority>{pri}</priority></url>")
     for p in articles:
-        urls.append(f"  <url><loc>{SITE_URL}/articles/{p.name}</loc><lastmod>{today}</lastmod><priority>0.8</priority></url>")
+        # 記事の公開日をlastmodに（ファイル名のYYYY-MM-DDから抽出）
+        date_m = re.match(r"(\d{4}-\d{2}-\d{2})", p.stem)
+        lastmod = date_m.group(1) if date_m else today
+        urls.append(f"  <url><loc>{SITE_URL}/articles/{p.name}</loc><lastmod>{lastmod}</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>")
     sitemap = f"""<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 {chr(10).join(urls)}
@@ -244,6 +262,24 @@ def main():
 
     if os.environ.get("ANTHROPIC_API_KEY"):
         title, excerpt, body = generate_body(topic)
+    else:
+        # API キーがなければダミー記事
+        print("[warn] ANTHROPIC_API_KEY not set, using dummy article body")
+        title = topic["title_seed"]
+        excerpt = f"{topic['category']}の基礎をやさしく解説します。"
+        body = f"""<div class="point-box"><div class="point-box-title">この記事でわかること</div><ul><li>{topic['title_seed']}の基本</li></ul></div>
+<h2>はじめに</h2><p>（本文は ANTHROPIC_API_KEY を設定すると自動生成されます）</p>
+<div class="point-box"><div class="point-box-title">まとめ</div><ul><li>仕組みを理解してから始めよう</li></ul></div>"""
+
+    slug = slugify(topic["title_seed"])
+    write_article(today, slug, title, excerpt, body, topic)
+    update_index(today, slug, title, excerpt, topic)
+    update_feed_and_sitemap()
+    print("[done]")
+
+
+if __name__ == "__main__":
+    main()
     else:
         # API キーがなければダミー記事
         print("[warn] ANTHROPIC_API_KEY not set, using dummy article body")

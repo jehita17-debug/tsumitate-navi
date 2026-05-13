@@ -3,16 +3,55 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#0b2545">
 <title>つみたてNAVI | 投資初心者のためのNISA・米国株・日本株ガイド</title>
 <meta name="description" content="つみたてNAVIは、投資初心者のための情報サイトです。NISA・つみたて投資・米国株・日本株を、毎朝7時にやさしく解説。資産形成の第一歩をサポートします。">
-<meta name="keywords" content="NISA,つみたて投資,米国株,日本株,投資初心者,資産形成,アフィリエイト">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta name="author" content="つみたてNAVI">
 <meta property="og:title" content="つみたてNAVI | 投資初心者のためのNISA・米国株・日本株ガイド">
 <meta property="og:description" content="投資初心者のためのやさしい情報サイト。NISA・つみたて投資・米国株・日本株を毎朝7時に配信。">
 <meta property="og:type" content="website">
+<meta property="og:url" content="https://jehita17-debug.github.io/tsumitate-navi/">
+<meta property="og:image" content="https://jehita17-debug.github.io/tsumitate-navi/ogp.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:site_name" content="つみたてNAVI">
 <meta property="og:locale" content="ja_JP">
-<link rel="canonical" href="./">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="つみたてNAVI | 投資初心者のためのNISA・米国株・日本株ガイド">
+<meta name="twitter:description" content="投資初心者のためのやさしい情報サイト。NISA・つみたて投資・米国株・日本株を毎朝7時に配信。">
+<meta name="twitter:image" content="https://jehita17-debug.github.io/tsumitate-navi/ogp.png">
+<link rel="canonical" href="https://jehita17-debug.github.io/tsumitate-navi/">
 <link rel="stylesheet" href="css/style.css">
 <link rel="alternate" type="application/rss+xml" title="つみたてNAVI RSS" href="feed.xml">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://jehita17-debug.github.io/tsumitate-navi/#website",
+      "url": "https://jehita17-debug.github.io/tsumitate-navi/",
+      "name": "つみたてNAVI",
+      "description": "投資初心者のためのNISA・つみたて投資・米国株・日本株ガイド",
+      "inLanguage": "ja-JP",
+      "publisher": { "@id": "https://jehita17-debug.github.io/tsumitate-navi/#organization" }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://jehita17-debug.github.io/tsumitate-navi/#organization",
+      "name": "つみたてNAVI",
+      "url": "https://jehita17-debug.github.io/tsumitate-navi/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://jehita17-debug.github.io/tsumitate-navi/ogp.png",
+        "width": 1200,
+        "height": 630
+      }
+    }
+  ]
+}
+</script>
 </head>
 <body>
 
@@ -64,19 +103,18 @@
       <!-- ▼▼▼ 自動生成記事はここに追加されます ▼▼▼ -->
 
       <article class="article-card">
-        <a href="articles/2026-05-12-NISA口座の金融機関を変更する方法と注意点.html">
-          <div class="article-thumb thumb-nisa">
-            <span class="article-thumb-label">NISA</span>
+        <a href="articles/2026-05-13-dollar-cost-averaging.html">
+          <div class="article-thumb thumb-tsumitate">
+            <span class="article-thumb-label">つみたて投資</span>
             <span>N</span>
           </div>
           <div class="article-body">
-            <div class="article-date">2026.05.12</div>
-            <h3 class="article-title">NISA口座の金融機関を変更する方法と注意点【初心者向けガイド】</h3>
-            <p class="article-excerpt">「もっと使いやすい証券会社に乗り換えたい」と思ったことはありませんか？NISA口座は年に1回だけ金融機関を変更できます。手続きの流れと注意点をわかりやすく解説します。</p>
+            <div class="article-date">2026.05.13</div>
+            <h3 class="article-title">ドルコスト平均法とは？仕組みとメリット・デメリットを初心者向けに解説</h3>
+            <p class="article-excerpt">つみたて投資の基本「ドルコスト平均法」を初心者向けにやさしく解説。具体的なシミュレーション付きで紹介します。</p>
           </div>
         </a>
       </article>
-
 
       <article class="article-card">
         <a href="articles/2026-05-12-nisa-start-guide.html">
@@ -104,6 +142,8 @@
   </section>
 
 </main>
+
+<button class="to-top" id="toTop" aria-label="ページ上部へ戻る">↑</button>
 
 <footer class="site-footer">
   <div class="footer-inner">
@@ -136,12 +176,28 @@
 </footer>
 
 <script>
-  // モバイルメニュー
   document.querySelector('.menu-toggle')?.addEventListener('click', () => {
     document.getElementById('nav').classList.toggle('open');
   });
-  // 年号
   document.getElementById('year').textContent = new Date().getFullYear();
+  (function(){
+    const btn = document.getElementById('toTop');
+    if(!btn) return;
+    window.addEventListener('scroll', () => {
+      btn.classList.toggle('visible', window.scrollY > 600);
+    }, {passive:true});
+    btn.addEventListener('click', () => window.scrollTo({top:0, behavior:'smooth'}));
+  })();
+  (function(){
+    if(!('IntersectionObserver' in window)) return;
+    const io = new IntersectionObserver(entries => {
+      entries.forEach(e => { if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); } });
+    }, {threshold: 0.12});
+    document.querySelectorAll('.article-card').forEach(el => {
+      el.classList.add('reveal');
+      io.observe(el);
+    });
+  })();
 </script>
 
 </body>
