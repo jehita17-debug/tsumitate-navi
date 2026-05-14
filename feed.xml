@@ -6,7 +6,7 @@
     <atom:link href="https://jehita17-debug.github.io/tsumitate-navi/feed.xml" rel="self" type="application/rss+xml" />
     <description>投資初心者のための情報サイト。NISA・つみたて投資・米国株・日本株を毎朝7時に配信。</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 14 May 2026 08:39:47 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 14 May 2026 17:11:28 +0900</lastBuildDate>
     <item>
       <title>米国高配当株ETFの選び方｜VYM・HDV・SPYDの違いを初心者にやさしく解説</title>
       <link>https://jehita17-debug.github.io/tsumitate-navi/articles/2026-05-14-米国高配当株ETFの選び方VYMHDVSPYDの違い.html</link>
@@ -20,6 +20,13 @@
       <description>米国株投資の王道インデックス「S&amp;P500」を初心者向けにやさしく解説。指数の仕組み・連動商品の選び方・買い方の手順を、具体的なシミュレーション付きで紹介します。</description>
       <pubDate>Thu, 14 May 2026 07:00:00 +0900</pubDate>
       <guid>https://jehita17-debug.github.io/tsumitate-navi/articles/2026-05-14-sp500-guide.html</guid>
+    </item>
+    <item>
+      <title>iDeCoとNISA、どっちを優先すべき？初心者がまず知っておきたい使い分けの基本</title>
+      <link>https://jehita17-debug.github.io/tsumitate-navi/articles/2026-05-14-iDeCoとNISAどっちを優先すべき.html</link>
+      <description>老後のお金づくりに役立つiDeCoと、幅広い資産形成に使えるNISA。「どちらを先に始めればいいの？」と迷う初心者のために、二つの制度の違いと優先順位の考え方をわかりやすく解説します。</description>
+      <pubDate>Thu, 14 May 2026 07:00:00 +0900</pubDate>
+      <guid>https://jehita17-debug.github.io/tsumitate-navi/articles/2026-05-14-iDeCoとNISAどっちを優先すべき.html</guid>
     </item>
     <item>
       <title>ドルコスト平均法とは？仕組みとメリット・デメリットを初心者向けに解説</title>
