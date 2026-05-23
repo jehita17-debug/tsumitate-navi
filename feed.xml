@@ -1,87 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>つみたてNAVI</title>
     <link>https://jehita17-debug.github.io/tsumitate-navi/</link>
-    <atom:link href="https://jehita17-debug.github.io/tsumitate-navi/feed.xml" rel="self" type="application/rss+xml" xmlns:atom="http://www.w3.org/2005/Atom"/>
+    <atom:link href="https://jehita17-debug.github.io/tsumitate-navi/feed.xml" rel="self" type="application/rss+xml" />
     <description>投資初心者のための情報サイト。NISA・つみたて投資・米国株・日本株を毎朝7時に配信。</description>
     <language>ja</language>
+    <lastBuildDate>Sat, 23 May 2026 16:41:34 +0900</lastBuildDate>
     <item>
       <title>新NISAでよくある失敗パターン7選｜初心者が回避すべきポイントを徹底解説</title>
       <link>https://jehita17-debug.github.io/tsumitate-navi/articles/2026-05-23-nisa-common-mistakes.html</link>
-      <guid>https://jehita17-debug.github.io/tsumitate-navi/articles/2026-05-23-nisa-common-mistakes.html</guid>
       <description>新NISAで初心者がやりがちな失敗7パターンを投資初心者向けにやさしく解説。短期売買・テーマ型投信への集中・狼狽売り・非課税枠の使い切り焦りなど、回避策とシミュレーションを紹介します。</description>
       <pubDate>Sat, 23 May 2026 07:00:00 +0900</pubDate>
+      <guid>https://jehita17-debug.github.io/tsumitate-navi/articles/2026-05-23-nisa-common-mistakes.html</guid>
+    </item>
+    <item>
+      <title>S&amp;amp;P500とは？初心者にもわかる仕組みと買い方をやさしく解説</title>
+      <link>https://jehita17-debug.github.io/tsumitate-navi/articles/2026-05-23-SP500とは初心者にもわかる仕組みと買い方.html</link>
+      <description>「S&amp;amp;P500」という言葉をよく耳にするけど、何かよくわからない。そんな方へ。仕組みから実際の買い方まで、初心者にもわかるようにやさしく解説します。</description>
+      <pubDate>Sat, 23 May 2026 07:00:00 +0900</pubDate>
+      <guid>https://jehita17-debug.github.io/tsumitate-navi/articles/2026-05-23-SP500とは初心者にもわかる仕組みと買い方.html</guid>
     </item>
     <item>
       <title>投資を始める前にやるべき家計の見直し｜初心者が最初に整える6つのチェックポイント</title>
       <link>https://jehita17-debug.github.io/tsumitate-navi/articles/2026-05-22-household-budget-review.html</link>
-      <guid>https://jehita17-debug.github.io/tsumitate-navi/articles/2026-05-22-household-budget-review.html</guid>
       <description>投資を始める前にやっておきたい家計の見直しを投資初心者向けにやさしく解説。固定費・生活防衛資金・保険・サブスクなど6つのチェックポイントを、月3万円捻出のシミュレーション付きで紹介します。</description>
       <pubDate>Fri, 22 May 2026 07:00:00 +0900</pubDate>
+      <guid>https://jehita17-debug.github.io/tsumitate-navi/articles/2026-05-22-household-budget-review.html</guid>
     </item>
     <item>
       <title>投資信託の信託報酬を比較するコツ｜初心者がコスト負けしない選び方</title>
       <link>https://jehita17-debug.github.io/tsumitate-navi/articles/2026-05-21-trust-fee-comparison.html</link>
-      <guid>https://jehita17-debug.github.io/tsumitate-navi/articles/2026-05-21-trust-fee-comparison.html</guid>
       <description>投資信託の信託報酬（運用コスト）を投資初心者向けにやさしく解説。0.1%と1%でどれだけ差がつくのか、低コスト投信を選ぶ3つの基準、注意したい隠れコストまでシミュレーション付きで紹介します。</description>
       <pubDate>Thu, 21 May 2026 07:00:00 +0900</pubDate>
+      <guid>https://jehita17-debug.github.io/tsumitate-navi/articles/2026-05-21-trust-fee-comparison.html</guid>
     </item>
     <item>
       <title>日経平均株価とTOPIX、何が違う？初心者向けにやさしく解説</title>
       <link>https://jehita17-debug.github.io/tsumitate-navi/articles/2026-05-20-nikkei-vs-topix.html</link>
-      <guid>https://jehita17-debug.github.io/tsumitate-navi/articles/2026-05-20-nikkei-vs-topix.html</guid>
-      <description>日経平均株価とTOPIXの違いを投資初心者向けにやさしく解説。計算方法・採用銘柄・値動きの特徴を比較し、インデックス選びのポイントをシミュレーション付きで紹介します。</description>
+      <description>日本株の代表的な指数「日経平均株価」と「TOPIX」の違いを投資初心者向けにやさしく解説。計算方法・採用銘柄・値動きの特徴と、インデックス投資で選ぶときのポイントをシミュレーション付きで紹介します。</description>
       <pubDate>Wed, 20 May 2026 07:00:00 +0900</pubDate>
+      <guid>https://jehita17-debug.github.io/tsumitate-navi/articles/2026-05-20-nikkei-vs-topix.html</guid>
     </item>
     <item>
       <title>全米株式（VTI）と全世界株式、どちらを選ぶ？初心者向けに違いを徹底比較</title>
       <link>https://jehita17-debug.github.io/tsumitate-navi/articles/2026-05-19-vti-vs-all-country.html</link>
-      <guid>https://jehita17-debug.github.io/tsumitate-navi/articles/2026-05-19-vti-vs-all-country.html</guid>
-      <description>米国株インデックスの代表「全米株式（VTI）」と「全世界株式（オルカン）」を投資初心者向けにやさしく比較。中身・リターン傾向・リスク・選び方をシミュレーション付きで解説します。</description>
+      <description>米国株インデックスの代表「全米株式（VTI）」と、世界中の株式に分散投資する「全世界株式（オルカン）」を投資初心者向けにやさしく比較。中身・リターン傾向・リスク・選び方をシミュレーション付きで解説します。</description>
       <pubDate>Tue, 19 May 2026 07:00:00 +0900</pubDate>
+      <guid>https://jehita17-debug.github.io/tsumitate-navi/articles/2026-05-19-vti-vs-all-country.html</guid>
     </item>
     <item>
       <title>新NISA「つみたて投資枠」と「成長投資枠」初心者はどう使い分ける？</title>
       <link>https://jehita17-debug.github.io/tsumitate-navi/articles/2026-05-18-tsumitate-vs-growth-quota.html</link>
-      <guid>https://jehita17-debug.github.io/tsumitate-navi/articles/2026-05-18-tsumitate-vs-growth-quota.html</guid>
       <description>新NISAの「つみたて投資枠」と「成長投資枠」の違いを投資初心者向けにやさしく解説。年間上限・対象商品・併用ルール・初心者のおすすめ使い分けまでシミュレーション付きで紹介します。</description>
       <pubDate>Mon, 18 May 2026 07:00:00 +0900</pubDate>
+      <guid>https://jehita17-debug.github.io/tsumitate-navi/articles/2026-05-18-tsumitate-vs-growth-quota.html</guid>
     </item>
     <item>
       <title>毎月いくら積み立てればいい？年代別の目安と計算方法を初心者向けに解説</title>
       <link>https://jehita17-debug.github.io/tsumitate-navi/articles/2026-05-17-monthly-amount-by-age.html</link>
-      <guid>https://jehita17-debug.github.io/tsumitate-navi/articles/2026-05-17-monthly-amount-by-age.html</guid>
-      <description>つみたて投資の毎月の積立額に迷う初心者向けに、20代〜50代の年代別の目安、手取りから計算する3ステップ、運用シミュレーションをやさしく解説します。</description>
+      <description>つみたて投資の毎月の積立額に迷う投資初心者向けに、20代〜50代の年代別の目安、手取りに対する目安比率、運用シミュレーションをやさしく解説します。</description>
       <pubDate>Sun, 17 May 2026 07:00:00 +0900</pubDate>
+      <guid>https://jehita17-debug.github.io/tsumitate-navi/articles/2026-05-17-monthly-amount-by-age.html</guid>
     </item>
     <item>
       <title>iDeCoとNISA、どっちを優先すべき？初心者向けに違いと選び方を解説</title>
       <link>https://jehita17-debug.github.io/tsumitate-navi/articles/2026-05-16-ideco-vs-nisa.html</link>
-      <guid>https://jehita17-debug.github.io/tsumitate-navi/articles/2026-05-16-ideco-vs-nisa.html</guid>
-      <description>iDeCoとNISA、どちらを優先すべきか迷う初心者向けに、税制・引き出し制限・年間上限などの違いとライフステージ別の選び方をシミュレーション付きで解説します。</description>
+      <description>iDeCoとNISA、どちらを優先すべきか迷う投資初心者向けに、税制・引き出し制限・年間上限などの違いと、ライフステージ別の選び方をシミュレーション付きでわかりやすく解説します。</description>
       <pubDate>Sat, 16 May 2026 07:00:00 +0900</pubDate>
+      <guid>https://jehita17-debug.github.io/tsumitate-navi/articles/2026-05-16-ideco-vs-nisa.html</guid>
     </item>
     <item>
       <title>S&amp;P500とは？初心者にもわかる仕組みと買い方を徹底解説</title>
       <link>https://jehita17-debug.github.io/tsumitate-navi/articles/2026-05-14-sp500-guide.html</link>
-      <guid>https://jehita17-debug.github.io/tsumitate-navi/articles/2026-05-14-sp500-guide.html</guid>
-      <description>米国株投資の王道インデックス「S&amp;P500」を初心者向けにやさしく解説。仕組みから買い方まで具体的なシミュレーション付きで紹介します。</description>
+      <description>米国株投資の王道インデックス「S&amp;P500」を初心者向けにやさしく解説。指数の仕組み・連動商品の選び方・買い方の手順を、具体的なシミュレーション付きで紹介します。</description>
       <pubDate>Thu, 14 May 2026 07:00:00 +0900</pubDate>
+      <guid>https://jehita17-debug.github.io/tsumitate-navi/articles/2026-05-14-sp500-guide.html</guid>
     </item>
     <item>
       <title>ドルコスト平均法とは？仕組みとメリット・デメリットを初心者向けに解説</title>
       <link>https://jehita17-debug.github.io/tsumitate-navi/articles/2026-05-13-dollar-cost-averaging.html</link>
-      <guid>https://jehita17-debug.github.io/tsumitate-navi/articles/2026-05-13-dollar-cost-averaging.html</guid>
-      <description>つみたて投資の基本「ドルコスト平均法」を初心者向けにやさしく解説。具体的なシミュレーション付きで紹介します。</description>
+      <description>つみたて投資の基本「ドルコスト平均法」を初心者向けにやさしく解説。仕組み・メリット・デメリットを具体的なシミュレーション付きで紹介します。</description>
       <pubDate>Wed, 13 May 2026 07:00:00 +0900</pubDate>
+      <guid>https://jehita17-debug.github.io/tsumitate-navi/articles/2026-05-13-dollar-cost-averaging.html</guid>
     </item>
     <item>
       <title>【完全ガイド】新NISAの始め方｜投資初心者が最初にやる5ステップ</title>
       <link>https://jehita17-debug.github.io/tsumitate-navi/articles/2026-05-12-nisa-start-guide.html</link>
-      <guid>https://jehita17-debug.github.io/tsumitate-navi/articles/2026-05-12-nisa-start-guide.html</guid>
-      <description>新NISAをこれから始める初心者向けに、口座開設から最初の積立設定まで5ステップでわかりやすく解説</description>
+      <description>新NISAをこれから始める初心者向けに、口座開設から最初の積立設定まで5ステップでわかりやすく解説。月いくらから？銘柄は？という疑問にも答えます。</description>
       <pubDate>Tue, 12 May 2026 07:00:00 +0900</pubDate>
+      <guid>https://jehita17-debug.github.io/tsumitate-navi/articles/2026-05-12-nisa-start-guide.html</guid>
     </item>
   </channel>
 </rss>
