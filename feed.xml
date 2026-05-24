@@ -6,7 +6,14 @@
     <atom:link href="https://jehita17-debug.github.io/tsumitate-navi/feed.xml" rel="self" type="application/rss+xml" />
     <description>投資初心者のための情報サイト。NISA・つみたて投資・米国株・日本株を毎朝7時に配信。</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 23 May 2026 16:41:34 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 24 May 2026 17:03:34 +0900</lastBuildDate>
+    <item>
+      <title>20年つみたて投資をしたら本当にいくらになるのか？リアルな試算で確かめてみた</title>
+      <link>https://jehita17-debug.github.io/tsumitate-navi/articles/2026-05-24-20年つみたて投資をしたら本当にいくらになるのか試算.html</link>
+      <description>「毎月コツコツ積み立てたら、将来どれくらい増えるの？」そんな疑問に応えるべく、月1万円〜5万円のパターンで20年後の資産を具体的にシミュレーションしました。</description>
+      <pubDate>Sun, 24 May 2026 07:00:00 +0900</pubDate>
+      <guid>https://jehita17-debug.github.io/tsumitate-navi/articles/2026-05-24-20年つみたて投資をしたら本当にいくらになるのか試算.html</guid>
+    </item>
     <item>
       <title>新NISAでよくある失敗パターン7選｜初心者が回避すべきポイントを徹底解説</title>
       <link>https://jehita17-debug.github.io/tsumitate-navi/articles/2026-05-23-nisa-common-mistakes.html</link>
