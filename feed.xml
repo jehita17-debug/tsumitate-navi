@@ -6,7 +6,14 @@
     <atom:link href="https://jehita17-debug.github.io/tsumitate-navi/feed.xml" rel="self" type="application/rss+xml" />
     <description>投資初心者のための情報サイト。NISA・つみたて投資・米国株・日本株を毎朝7時に配信。</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 24 May 2026 17:03:34 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 25 May 2026 21:03:23 +0900</lastBuildDate>
+    <item>
+      <title>日経平均株価とTOPIX、何が違う？初心者が知っておきたい2大指数のポイント</title>
+      <link>https://jehita17-debug.github.io/tsumitate-navi/articles/2026-05-25-日経平均株価とTOPIX何が違う.html</link>
+      <description>ニュースでよく耳にする「日経平均」と「TOPIX」。どちらも日本株の動きを示す指数ですが、計算方法や対象銘柄が異なります。この記事では2つの違いをわかりやすく解説します。</description>
+      <pubDate>Mon, 25 May 2026 07:00:00 +0900</pubDate>
+      <guid>https://jehita17-debug.github.io/tsumitate-navi/articles/2026-05-25-日経平均株価とTOPIX何が違う.html</guid>
+    </item>
     <item>
       <title>20年つみたて投資をしたら本当にいくらになるのか？リアルな試算で確かめてみた</title>
       <link>https://jehita17-debug.github.io/tsumitate-navi/articles/2026-05-24-20年つみたて投資をしたら本当にいくらになるのか試算.html</link>
