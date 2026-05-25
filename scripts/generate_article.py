@@ -30,7 +30,7 @@ SITEMAP = ROOT / "sitemap.xml"
 TOPICS_FILE = ROOT / "scripts" / "topics.json"
 
 JST = timezone(timedelta(hours=9))
-SITE_URL = os.environ.get("SITE_URL", "https://jehita17-debug.github.io/tsumitate-navi")
+SITE_URL = os.environ.get("SITE_URL", "https://tsumitate-navi.net")
 SITE_NAME = "つみたてNAVI"
 OGP_IMAGE = f"{SITE_URL}/ogp.png"
 

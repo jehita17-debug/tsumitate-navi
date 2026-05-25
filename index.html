@@ -11,8 +11,8 @@
 <meta property="og:title" content="つみたてNAVI | 投資初心者のためのNISA・米国株・日本株ガイド">
 <meta property="og:description" content="投資初心者のためのやさしい情報サイト。NISA・つみたて投資・米国株・日本株を毎朝7時に配信。">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://jehita17-debug.github.io/tsumitate-navi/">
-<meta property="og:image" content="https://jehita17-debug.github.io/tsumitate-navi/ogp.png">
+<meta property="og:url" content="https://tsumitate-navi.net/">
+<meta property="og:image" content="https://tsumitate-navi.net/ogp.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:site_name" content="つみたてNAVI">
@@ -20,8 +20,8 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="つみたてNAVI | 投資初心者のためのNISA・米国株・日本株ガイド">
 <meta name="twitter:description" content="投資初心者のためのやさしい情報サイト。NISA・つみたて投資・米国株・日本株を毎朝7時に配信。">
-<meta name="twitter:image" content="https://jehita17-debug.github.io/tsumitate-navi/ogp.png">
-<link rel="canonical" href="https://jehita17-debug.github.io/tsumitate-navi/">
+<meta name="twitter:image" content="https://tsumitate-navi.net/ogp.png">
+<link rel="canonical" href="https://tsumitate-navi.net/">
 <link rel="stylesheet" href="css/style.css">
 <link rel="alternate" type="application/rss+xml" title="つみたてNAVI RSS" href="feed.xml">
 <script type="application/ld+json">
@@ -30,21 +30,21 @@
   "@graph": [
     {
       "@type": "WebSite",
-      "@id": "https://jehita17-debug.github.io/tsumitate-navi/#website",
-      "url": "https://jehita17-debug.github.io/tsumitate-navi/",
+      "@id": "https://tsumitate-navi.net/#website",
+      "url": "https://tsumitate-navi.net/",
       "name": "つみたてNAVI",
       "description": "投資初心者のためのNISA・つみたて投資・米国株・日本株ガイド",
       "inLanguage": "ja-JP",
-      "publisher": { "@id": "https://jehita17-debug.github.io/tsumitate-navi/#organization" }
+      "publisher": { "@id": "https://tsumitate-navi.net/#organization" }
     },
     {
       "@type": "Organization",
-      "@id": "https://jehita17-debug.github.io/tsumitate-navi/#organization",
+      "@id": "https://tsumitate-navi.net/#organization",
       "name": "つみたてNAVI",
-      "url": "https://jehita17-debug.github.io/tsumitate-navi/",
+      "url": "https://tsumitate-navi.net/",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://jehita17-debug.github.io/tsumitate-navi/ogp.png",
+        "url": "https://tsumitate-navi.net/ogp.png",
         "width": 1200,
         "height": 630
       }
@@ -101,6 +101,20 @@
     <div class="article-grid" id="article-list">
 
       <!-- ▼▼▼ 自動生成記事はここに追加されます ▼▼▼ -->
+
+      <article class="article-card">
+        <a href="articles/2026-05-25-emergency-fund.html">
+          <div class="article-thumb thumb-nisa">
+            <span class="article-thumb-label">資産形成</span>
+            <span>N</span>
+          </div>
+          <div class="article-body">
+            <div class="article-date">2026.05.25</div>
+            <h3 class="article-title">生活防衛資金はいくら必要？投資との優先順位を初心者向けに徹底解説</h3>
+            <p class="article-excerpt">生活防衛資金（緊急資金）の目安額と、投資との優先順位を投資初心者向けにやさしく解説。会社員・自営業・家族構成別の必要額、置き場所、貯まる前にNISAを始めていいかをシミュレーション付きで紹介します。</p>
+          </div>
+        </a>
+      </article>
 
       <article class="article-card">
         <a href="articles/2026-05-23-nisa-common-mistakes.html">
@@ -303,28 +317,4 @@
 
 <script>
   document.querySelector('.menu-toggle')?.addEventListener('click', () => {
-    document.getElementById('nav').classList.toggle('open');
-  });
-  document.getElementById('year').textContent = new Date().getFullYear();
-  (function(){
-    const btn = document.getElementById('toTop');
-    if(!btn) return;
-    window.addEventListener('scroll', () => {
-      btn.classList.toggle('visible', window.scrollY > 600);
-    }, {passive:true});
-    btn.addEventListener('click', () => window.scrollTo({top:0, behavior:'smooth'}));
-  })();
-  (function(){
-    if(!('IntersectionObserver' in window)) return;
-    const io = new IntersectionObserver(entries => {
-      entries.forEach(e => { if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); } });
-    }, {threshold: 0.12});
-    document.querySelectorAll('.article-card').forEach(el => {
-      el.classList.add('reveal');
-      io.observe(el);
-    });
-  })();
-</script>
-
-</body>
-</html>
+    

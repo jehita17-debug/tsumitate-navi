@@ -8,9 +8,9 @@
 
 | 項目 | URL |
 |---|---|
-| 公開サイト | https://jehita17-debug.github.io/tsumitate-navi/ |
-| サイトマップ（Search Console提出用） | https://jehita17-debug.github.io/tsumitate-navi/sitemap.xml |
-| RSSフィード | https://jehita17-debug.github.io/tsumitate-navi/feed.xml |
+| 公開サイト | https://tsumitate-navi.net/ |
+| サイトマップ（Search Console提出用） | https://tsumitate-navi.net/sitemap.xml |
+| RSSフィード | https://tsumitate-navi.net/feed.xml |
 
 ## GitHub関連
 

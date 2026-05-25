@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://jehita17-debug.github.io/tsumitate-navi/sitemap.xml
+Sitemap: https://tsumitate-navi.net/sitemap.xml
