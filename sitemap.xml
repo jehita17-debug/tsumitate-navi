@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://tsumitate-navi.net/</loc><lastmod>2026-05-26</lastmod><changefreq>daily</changefreq><priority>1.0</priority></url>
+  <url><loc>https://tsumitate-navi.net/</loc><lastmod>2026-05-27</lastmod><changefreq>daily</changefreq><priority>1.0</priority></url>
   <url><loc>https://tsumitate-navi.net/about.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url><loc>https://tsumitate-navi.net/privacy.html</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
   <url><loc>https://tsumitate-navi.net/disclaimer.html</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
   <url><loc>https://tsumitate-navi.net/contact.html</loc><changefreq>monthly</changefreq><priority>0.4</priority></url>
+  <url><loc>https://tsumitate-navi.net/articles/2026-05-27-日本の高配当株の選び方配当利回りだけで選んではいけない理由.html</loc><lastmod>2026-05-27</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://tsumitate-navi.net/articles/2026-05-26-20-year-tsumitate-simulation.html</loc><lastmod>2026-05-26</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://tsumitate-navi.net/articles/2026-05-25-日経平均株価とTOPIX何が違う.html</loc><lastmod>2026-05-25</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://tsumitate-navi.net/articles/2026-05-25-emergency-fund.html</loc><lastmod>2026-05-25</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://tsumitate-navi.net/articles/2026-05-24-20年つみたて投資をしたら本当にいくらになるのか試算.html</loc><lastmod>2026-05-24</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://tsumitate-navi.net/articles/2026-05-23-nisa-common-mistakes.html</loc><lastmod>2026-05-23</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://tsumitate-navi.net/articles/2026-05-23-SP500とは初心者にもわかる仕組みと買い方.html</loc><lastmod>2026-05-23</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://tsumitate-navi.net/articles/2026-05-22-household-budget-review.html</loc><lastmod>2026-05-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://tsumitate-navi.net/articles/2026-05-21-trust-fee-comparison.html</loc><lastmod>2026-05-21</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://tsumitate-navi.net/articles/2026-05-20-nikkei-vs-topix.html</loc><lastmod>2026-05-20</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
@@ -17,4 +21,5 @@
   <url><loc>https://tsumitate-navi.net/articles/2026-05-16-ideco-vs-nisa.html</loc><lastmod>2026-05-16</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://tsumitate-navi.net/articles/2026-05-14-sp500-guide.html</loc><lastmod>2026-05-14</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://tsumitate-navi.net/articles/2026-05-13-dollar-cost-averaging.html</loc><lastmod>2026-05-13</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>
+  <url><loc>https://tsumitate-navi.net/articles/2026-05-12-nisa-start-guide.html</loc><lastmod>2026-05-12</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+</urlset>
