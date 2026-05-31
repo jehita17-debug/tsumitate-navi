@@ -1,151 +1,118 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0">
   <channel>
     <title>つみたてNAVI</title>
     <link>https://tsumitate-navi.net/</link>
-    <atom:link href="https://tsumitate-navi.net/feed.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://tsumitate-navi.net/feed.xml" rel="self" type="application/rss+xml" xmlns:atom="http://www.w3.org/2005/Atom"/>
     <description>投資初心者のための情報サイト。NISA・つみたて投資・米国株・日本株を毎朝7時に配信。</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 30 May 2026 17:00:21 +0900</lastBuildDate>
     <item>
-      <title>ドル建て・円建て投資信託、どちらが有利？初心者が知るべき為替リスクと選び方</title>
-      <link>https://tsumitate-navi.net/articles/2026-05-30-ドル建て円建て投資信託どちらが有利.html</link>
-      <description>米国株に投資する際、「ドル建て」と「円建て」どちらを選ぶべきか迷っていませんか？為替の仕組みから実際の損益への影響まで、初心者にもわかりやすく解説します。</description>
-      <pubDate>Sat, 30 May 2026 07:00:00 +0900</pubDate>
-      <guid>https://tsumitate-navi.net/articles/2026-05-30-ドル建て円建て投資信託どちらが有利.html</guid>
+      <title>日本の個別株を買うときにチェックすべき5つの指標｜初心者向け</title>
+      <link>https://tsumitate-navi.net/articles/2026-05-31-japan-stock-indicators.html</link>
+      <guid>https://tsumitate-navi.net/articles/2026-05-31-japan-stock-indicators.html</guid>
+      <description>日本の個別株を買う前に確認したいPER・PBR・ROE・配当性向・自己資本比率の5つの指標を投資初心者向けにやさしく解説。数字の意味と目安、よくある勘違いを具体例とシミュレーション付きで紹介します。</description>
+      <pubDate>Sun, 31 May 2026 07:00:00 +0900</pubDate>
     </item>
     <item>
-      <title>新NISAでよくある失敗パターン5選と賢い回避法【初心者必読】</title>
-      <link>https://tsumitate-navi.net/articles/2026-05-29-新NISAでよくある失敗パターンと回避法.html</link>
-      <description>新NISAは使いこなせば非常に強力な非課税制度ですが、仕組みを誤解したまま使い始めると思わぬ損をすることも。初心者がやりがちな失敗パターンと、その対策をわかりやすく解説します。</description>
+      <title>株主優待を活用した投資戦略｜初心者向けの選び方と5つのチェックポイント</title>
+      <link>https://tsumitate-navi.net/articles/2026-05-29-shareholder-benefit.html</link>
+      <guid>https://tsumitate-navi.net/articles/2026-05-29-shareholder-benefit.html</guid>
+      <description>株主優待を活用した投資戦略を投資初心者向けにやさしく解説。優待利回りの計算、銘柄選びの5つのチェックポイント、100万円ポートフォリオのシミュレーション、初心者がハマりやすい落とし穴まで具体例付きで紹介します。</description>
       <pubDate>Fri, 29 May 2026 07:00:00 +0900</pubDate>
-      <guid>https://tsumitate-navi.net/articles/2026-05-29-新NISAでよくある失敗パターンと回避法.html</guid>
     </item>
     <item>
-      <title>投資信託の信託報酬を比較して安いものを選ぶコツ【つみたて投資の基本】</title>
-      <link>https://tsumitate-navi.net/articles/2026-05-28-投資信託の信託報酬を比較して安いものを選ぶコツ.html</link>
-      <description>投資信託を選ぶとき「信託報酬」を見逃していませんか？毎年かかるコストの差が、10〜20年後の資産額に大きな影響を与えます。初心者でもわかる比較のポイントを丁寧に解説します。</description>
+      <title>日本の高配当株の選び方｜配当利回りだけで選んではいけない3つの理由</title>
+      <link>https://tsumitate-navi.net/articles/2026-05-28-japan-high-dividend-stocks.html</link>
+      <guid>https://tsumitate-navi.net/articles/2026-05-28-japan-high-dividend-stocks.html</guid>
+      <description>日本の高配当株を選ぶときに、配当利回りだけを見て買うと失敗しやすい理由を投資初心者向けにやさしく解説。配当性向・増配の継続性・営業キャッシュフローなど5つのチェックポイントと、100万円ポートフォリオのシミュレーション付き。</description>
       <pubDate>Thu, 28 May 2026 07:00:00 +0900</pubDate>
-      <guid>https://tsumitate-navi.net/articles/2026-05-28-投資信託の信託報酬を比較して安いものを選ぶコツ.html</guid>
     </item>
     <item>
-      <title>日本の高配当株の選び方｜配当利回りだけで選んではいけない理由</title>
-      <link>https://tsumitate-navi.net/articles/2026-05-27-日本の高配当株の選び方配当利回りだけで選んではいけない理由.html</link>
-      <description>「利回り5%超え！」という言葉に惹かれて株を買ったら、翌年に減配されてしまった——そんな失敗を防ぐために、初心者が知っておくべき高配当株の正しい選び方を解説します。</description>
+      <title>米国高配当株ETFの選び方｜VYM・HDV・SPYDの違いを初心者向けに徹底比較</title>
+      <link>https://tsumitate-navi.net/articles/2026-05-27-us-high-dividend-etf.html</link>
+      <guid>https://tsumitate-navi.net/articles/2026-05-27-us-high-dividend-etf.html</guid>
+      <description>米国高配当株ETFの代表「VYM・HDV・SPYD」の違いを投資初心者向けにやさしく解説。配当利回り・経費率・銘柄構成・値動きの特徴を比較し、用途別の選び方をシミュレーション付きで紹介します。</description>
       <pubDate>Wed, 27 May 2026 07:00:00 +0900</pubDate>
-      <guid>https://tsumitate-navi.net/articles/2026-05-27-日本の高配当株の選び方配当利回りだけで選んではいけない理由.html</guid>
     </item>
     <item>
       <title>20年つみたて投資をしたら本当にいくらになる？利回り・金額別シミュレーション</title>
       <link>https://tsumitate-navi.net/articles/2026-05-26-20-year-tsumitate-simulation.html</link>
+      <guid>https://tsumitate-navi.net/articles/2026-05-26-20-year-tsumitate-simulation.html</guid>
       <description>毎月3万円を20年つみたて投資したら本当にいくらになるのか、年利1%・3%・5%・7%別にシミュレーション。月額別の到達額や、暴落シナリオも含めて投資初心者向けにやさしく解説します。</description>
       <pubDate>Tue, 26 May 2026 07:00:00 +0900</pubDate>
-      <guid>https://tsumitate-navi.net/articles/2026-05-26-20-year-tsumitate-simulation.html</guid>
-    </item>
-    <item>
-      <title>日経平均株価とTOPIX、何が違う？初心者が知っておきたい2大指数のポイント</title>
-      <link>https://tsumitate-navi.net/articles/2026-05-25-日経平均株価とTOPIX何が違う.html</link>
-      <description>ニュースでよく耳にする「日経平均」と「TOPIX」。どちらも日本株の動きを示す指数ですが、計算方法や対象銘柄が異なります。この記事では2つの違いをわかりやすく解説します。</description>
-      <pubDate>Mon, 25 May 2026 07:00:00 +0900</pubDate>
-      <guid>https://tsumitate-navi.net/articles/2026-05-25-日経平均株価とTOPIX何が違う.html</guid>
     </item>
     <item>
       <title>生活防衛資金はいくら必要？投資との優先順位を初心者向けに徹底解説</title>
       <link>https://tsumitate-navi.net/articles/2026-05-25-emergency-fund.html</link>
+      <guid>https://tsumitate-navi.net/articles/2026-05-25-emergency-fund.html</guid>
       <description>生活防衛資金（緊急資金）の目安額と、投資との優先順位を投資初心者向けにやさしく解説。会社員・自営業・家族構成別の必要額、置き場所、貯まる前にNISAを始めていいかをシミュレーション付きで紹介します。</description>
       <pubDate>Mon, 25 May 2026 07:00:00 +0900</pubDate>
-      <guid>https://tsumitate-navi.net/articles/2026-05-25-emergency-fund.html</guid>
-    </item>
-    <item>
-      <title>20年つみたて投資をしたら本当にいくらになるのか？リアルな試算で確かめてみた</title>
-      <link>https://tsumitate-navi.net/articles/2026-05-24-20年つみたて投資をしたら本当にいくらになるのか試算.html</link>
-      <description>「毎月コツコツ積み立てたら、将来どれくらい増えるの？」そんな疑問に応えるべく、月1万円〜5万円のパターンで20年後の資産を具体的にシミュレーションしました。</description>
-      <pubDate>Sun, 24 May 2026 07:00:00 +0900</pubDate>
-      <guid>https://tsumitate-navi.net/articles/2026-05-24-20年つみたて投資をしたら本当にいくらになるのか試算.html</guid>
     </item>
     <item>
       <title>新NISAでよくある失敗パターン7選｜初心者が回避すべきポイントを徹底解説</title>
       <link>https://tsumitate-navi.net/articles/2026-05-23-nisa-common-mistakes.html</link>
+      <guid>https://tsumitate-navi.net/articles/2026-05-23-nisa-common-mistakes.html</guid>
       <description>新NISAで初心者がやりがちな失敗7パターンを投資初心者向けにやさしく解説。短期売買・テーマ型投信への集中・狼狽売り・非課税枠の使い切り焦りなど、回避策とシミュレーションを紹介します。</description>
       <pubDate>Sat, 23 May 2026 07:00:00 +0900</pubDate>
-      <guid>https://tsumitate-navi.net/articles/2026-05-23-nisa-common-mistakes.html</guid>
-    </item>
-    <item>
-      <title>S&amp;amp;P500とは？初心者にもわかる仕組みと買い方をやさしく解説</title>
-      <link>https://tsumitate-navi.net/articles/2026-05-23-SP500とは初心者にもわかる仕組みと買い方.html</link>
-      <description>「S&amp;amp;P500」という言葉をよく耳にするけど、何かよくわからない。そんな方へ。仕組みから実際の買い方まで、初心者にもわかるようにやさしく解説します。</description>
-      <pubDate>Sat, 23 May 2026 07:00:00 +0900</pubDate>
-      <guid>https://tsumitate-navi.net/articles/2026-05-23-SP500とは初心者にもわかる仕組みと買い方.html</guid>
     </item>
     <item>
       <title>投資を始める前にやるべき家計の見直し｜初心者が最初に整える6つのチェックポイント</title>
       <link>https://tsumitate-navi.net/articles/2026-05-22-household-budget-review.html</link>
+      <guid>https://tsumitate-navi.net/articles/2026-05-22-household-budget-review.html</guid>
       <description>投資を始める前にやっておきたい家計の見直しを投資初心者向けにやさしく解説。固定費・生活防衛資金・保険・サブスクなど6つのチェックポイントを、月3万円捻出のシミュレーション付きで紹介します。</description>
       <pubDate>Fri, 22 May 2026 07:00:00 +0900</pubDate>
-      <guid>https://tsumitate-navi.net/articles/2026-05-22-household-budget-review.html</guid>
     </item>
     <item>
       <title>投資信託の信託報酬を比較するコツ｜初心者がコスト負けしない選び方</title>
       <link>https://tsumitate-navi.net/articles/2026-05-21-trust-fee-comparison.html</link>
+      <guid>https://tsumitate-navi.net/articles/2026-05-21-trust-fee-comparison.html</guid>
       <description>投資信託の信託報酬（運用コスト）を投資初心者向けにやさしく解説。0.1%と1%でどれだけ差がつくのか、低コスト投信を選ぶ3つの基準、注意したい隠れコストまでシミュレーション付きで紹介します。</description>
       <pubDate>Thu, 21 May 2026 07:00:00 +0900</pubDate>
-      <guid>https://tsumitate-navi.net/articles/2026-05-21-trust-fee-comparison.html</guid>
     </item>
     <item>
       <title>日経平均株価とTOPIX、何が違う？初心者向けにやさしく解説</title>
       <link>https://tsumitate-navi.net/articles/2026-05-20-nikkei-vs-topix.html</link>
-      <description>日本株の代表的な指数「日経平均株価」と「TOPIX」の違いを投資初心者向けにやさしく解説。計算方法・採用銘柄・値動きの特徴と、インデックス投資で選ぶときのポイントをシミュレーション付きで紹介します。</description>
-      <pubDate>Wed, 20 May 2026 07:00:00 +0900</pubDate>
       <guid>https://tsumitate-navi.net/articles/2026-05-20-nikkei-vs-topix.html</guid>
+      <description>日経平均株価とTOPIXの違いを投資初心者向けにやさしく解説。計算方法・採用銘柄・値動きの特徴を比較し、インデックス選びのポイントをシミュレーション付きで紹介します。</description>
+      <pubDate>Wed, 20 May 2026 07:00:00 +0900</pubDate>
     </item>
     <item>
       <title>全米株式（VTI）と全世界株式、どちらを選ぶ？初心者向けに違いを徹底比較</title>
       <link>https://tsumitate-navi.net/articles/2026-05-19-vti-vs-all-country.html</link>
-      <description>米国株インデックスの代表「全米株式（VTI）」と、世界中の株式に分散投資する「全世界株式（オルカン）」を投資初心者向けにやさしく比較。中身・リターン傾向・リスク・選び方をシミュレーション付きで解説します。</description>
-      <pubDate>Tue, 19 May 2026 07:00:00 +0900</pubDate>
       <guid>https://tsumitate-navi.net/articles/2026-05-19-vti-vs-all-country.html</guid>
+      <description>米国株インデックスの代表「全米株式（VTI）」と「全世界株式（オルカン）」を投資初心者向けにやさしく比較。中身・リターン傾向・リスク・選び方をシミュレーション付きで解説します。</description>
+      <pubDate>Tue, 19 May 2026 07:00:00 +0900</pubDate>
     </item>
     <item>
       <title>新NISA「つみたて投資枠」と「成長投資枠」初心者はどう使い分ける？</title>
       <link>https://tsumitate-navi.net/articles/2026-05-18-tsumitate-vs-growth-quota.html</link>
+      <guid>https://tsumitate-navi.net/articles/2026-05-18-tsumitate-vs-growth-quota.html</guid>
       <description>新NISAの「つみたて投資枠」と「成長投資枠」の違いを投資初心者向けにやさしく解説。年間上限・対象商品・併用ルール・初心者のおすすめ使い分けまでシミュレーション付きで紹介します。</description>
       <pubDate>Mon, 18 May 2026 07:00:00 +0900</pubDate>
-      <guid>https://tsumitate-navi.net/articles/2026-05-18-tsumitate-vs-growth-quota.html</guid>
     </item>
     <item>
       <title>毎月いくら積み立てればいい？年代別の目安と計算方法を初心者向けに解説</title>
       <link>https://tsumitate-navi.net/articles/2026-05-17-monthly-amount-by-age.html</link>
-      <description>つみたて投資の毎月の積立額に迷う投資初心者向けに、20代〜50代の年代別の目安、手取りに対する目安比率、運用シミュレーションをやさしく解説します。</description>
-      <pubDate>Sun, 17 May 2026 07:00:00 +0900</pubDate>
       <guid>https://tsumitate-navi.net/articles/2026-05-17-monthly-amount-by-age.html</guid>
+      <description>つみたて投資の毎月の積立額に迷う初心者向けに、20代〜50代の年代別の目安、手取りから計算する3ステップ、運用シミュレーションをやさしく解説します。</description>
+      <pubDate>Sun, 17 May 2026 07:00:00 +0900</pubDate>
     </item>
     <item>
       <title>iDeCoとNISA、どっちを優先すべき？初心者向けに違いと選び方を解説</title>
       <link>https://tsumitate-navi.net/articles/2026-05-16-ideco-vs-nisa.html</link>
-      <description>iDeCoとNISA、どちらを優先すべきか迷う投資初心者向けに、税制・引き出し制限・年間上限などの違いと、ライフステージ別の選び方をシミュレーション付きでわかりやすく解説します。</description>
-      <pubDate>Sat, 16 May 2026 07:00:00 +0900</pubDate>
       <guid>https://tsumitate-navi.net/articles/2026-05-16-ideco-vs-nisa.html</guid>
+      <description>iDeCoとNISA、どちらを優先すべきか迷う初心者向けに、税制・引き出し制限・年間上限などの違いとライフステージ別の選び方をシミュレーション付きで解説します。</description>
+      <pubDate>Sat, 16 May 2026 07:00:00 +0900</pubDate>
     </item>
     <item>
       <title>S&amp;P500とは？初心者にもわかる仕組みと買い方を徹底解説</title>
       <link>https://tsumitate-navi.net/articles/2026-05-14-sp500-guide.html</link>
-      <description>米国株投資の王道インデックス「S&amp;P500」を初心者向けにやさしく解説。指数の仕組み・連動商品の選び方・買い方の手順を、具体的なシミュレーション付きで紹介します。</description>
-      <pubDate>Thu, 14 May 2026 07:00:00 +0900</pubDate>
       <guid>https://tsumitate-navi.net/articles/2026-05-14-sp500-guide.html</guid>
+      <description>米国株投資の王道インデックス「S&amp;P500」を初心者向けにやさしく解説。仕組みから買い方まで具体的なシミュレーション付きで紹介します。</description>
+      <pubDate>Thu, 14 May 2026 07:00:00 +0900</pubDate>
     </item>
     <item>
       <title>ドルコスト平均法とは？仕組みとメリット・デメリットを初心者向けに解説</title>
       <link>https://tsumitate-navi.net/articles/2026-05-13-dollar-cost-averaging.html</link>
-      <description>つみたて投資の基本「ドルコスト平均法」を初心者向けにやさしく解説。仕組み・メリット・デメリットを具体的なシミュレーション付きで紹介します。</description>
-      <pubDate>Wed, 13 May 2026 07:00:00 +0900</pubDate>
       <guid>https://tsumitate-navi.net/articles/2026-05-13-dollar-cost-averaging.html</guid>
-    </item>
-    <item>
-      <title>【完全ガイド】新NISAの始め方｜投資初心者が最初にやる5ステップ</title>
-      <link>https://tsumitate-navi.net/articles/2026-05-12-nisa-start-guide.html</link>
-      <description>新NISAをこれから始める初心者向けに、口座開設から最初の積立設定まで5ステップでわかりやすく解説。月いくらから？銘柄は？という疑問にも答えます。</description>
-      <pubDate>Tue, 12 May 2026 07:00:00 +0900</pubDate>
-      <guid>https://tsumitate-navi.net/articles/2026-05-12-nisa-start-guide.html</guid>
-    </item>
-  </channel>
-</rss>
+      <description>つみたて投資の基本「ドルコスト平均法」を初心者向けにやさしく解説。具体的な
