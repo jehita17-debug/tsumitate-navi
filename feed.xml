@@ -6,7 +6,14 @@
     <atom:link href="https://tsumitate-navi.net/feed.xml" rel="self" type="application/rss+xml" />
     <description>投資初心者のための情報サイト。NISA・つみたて投資・米国株・日本株を毎朝7時に配信。</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 31 May 2026 17:30:40 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 02 Jun 2026 04:14:53 +0900</lastBuildDate>
+    <item>
+      <title>新NISAで人気の銘柄ランキング徹底解説｜初心者が選ぶべき理由も紹介</title>
+      <link>https://tsumitate-navi.net/articles/2026-06-02-新NISAで人気の銘柄ランキング徹底解説.html</link>
+      <description>2024年から始まった新NISAで、多くの人が選んでいる銘柄はどれ？ランキング形式でわかりやすく解説します。投資初心者でも安心して参考にできる選び方のポイントも紹介します。</description>
+      <pubDate>Tue, 02 Jun 2026 07:00:00 +0900</pubDate>
+      <guid>https://tsumitate-navi.net/articles/2026-06-02-新NISAで人気の銘柄ランキング徹底解説.html</guid>
+    </item>
     <item>
       <title>緊急資金はいくら必要？投資を始める前に知っておきたいお金の優先順位</title>
       <link>https://tsumitate-navi.net/articles/2026-05-31-緊急資金はいくら必要投資との優先順位.html</link>
@@ -139,13 +146,6 @@
       <description>米国株インデックスの代表「全米株式（VTI）」と、世界中の株式に分散投資する「全世界株式（オルカン）」を投資初心者向けにやさしく比較。中身・リターン傾向・リスク・選び方をシミュレーション付きで解説します。</description>
       <pubDate>Tue, 19 May 2026 07:00:00 +0900</pubDate>
       <guid>https://tsumitate-navi.net/articles/2026-05-19-vti-vs-all-country.html</guid>
-    </item>
-    <item>
-      <title>新NISA「つみたて投資枠」と「成長投資枠」初心者はどう使い分ける？</title>
-      <link>https://tsumitate-navi.net/articles/2026-05-18-tsumitate-vs-growth-quota.html</link>
-      <description>新NISAの「つみたて投資枠」と「成長投資枠」の違いを投資初心者向けにやさしく解説。年間上限・対象商品・併用ルール・初心者のおすすめ使い分けまでシミュレーション付きで紹介します。</description>
-      <pubDate>Mon, 18 May 2026 07:00:00 +0900</pubDate>
-      <guid>https://tsumitate-navi.net/articles/2026-05-18-tsumitate-vs-growth-quota.html</guid>
     </item>
   </channel>
 </rss>
