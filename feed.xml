@@ -6,7 +6,14 @@
     <atom:link href="https://tsumitate-navi.net/feed.xml" rel="self" type="application/rss+xml" />
     <description>投資初心者のための情報サイト。NISA・つみたて投資・米国株・日本株を毎朝7時に配信。</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 02 Jun 2026 04:14:53 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 02 Jun 2026 21:30:22 +0900</lastBuildDate>
+    <item>
+      <title>日本の個別株を買うときにチェックすべき5つの指標【初心者向けやさしく解説】</title>
+      <link>https://tsumitate-navi.net/articles/2026-06-02-日本の個別株を買うときにチェックすべき5つの指標.html</link>
+      <description>個別株への投資は「どの会社を買えばいい？」という疑問からスタートします。プロが実際に使う5つの基本指標を知るだけで、銘柄選びの目線がグッと変わります。</description>
+      <pubDate>Tue, 02 Jun 2026 07:00:00 +0900</pubDate>
+      <guid>https://tsumitate-navi.net/articles/2026-06-02-日本の個別株を買うときにチェックすべき5つの指標.html</guid>
+    </item>
     <item>
       <title>新NISAで人気の銘柄ランキング徹底解説｜初心者が選ぶべき理由も紹介</title>
       <link>https://tsumitate-navi.net/articles/2026-06-02-新NISAで人気の銘柄ランキング徹底解説.html</link>
@@ -139,13 +146,6 @@
       <description>日本株の代表的な指数「日経平均株価」と「TOPIX」の違いを投資初心者向けにやさしく解説。計算方法・採用銘柄・値動きの特徴と、インデックス投資で選ぶときのポイントをシミュレーション付きで紹介します。</description>
       <pubDate>Wed, 20 May 2026 07:00:00 +0900</pubDate>
       <guid>https://tsumitate-navi.net/articles/2026-05-20-nikkei-vs-topix.html</guid>
-    </item>
-    <item>
-      <title>全米株式（VTI）と全世界株式、どちらを選ぶ？初心者向けに違いを徹底比較</title>
-      <link>https://tsumitate-navi.net/articles/2026-05-19-vti-vs-all-country.html</link>
-      <description>米国株インデックスの代表「全米株式（VTI）」と、世界中の株式に分散投資する「全世界株式（オルカン）」を投資初心者向けにやさしく比較。中身・リターン傾向・リスク・選び方をシミュレーション付きで解説します。</description>
-      <pubDate>Tue, 19 May 2026 07:00:00 +0900</pubDate>
-      <guid>https://tsumitate-navi.net/articles/2026-05-19-vti-vs-all-country.html</guid>
     </item>
   </channel>
 </rss>
