@@ -6,7 +6,14 @@
     <atom:link href="https://tsumitate-navi.net/feed.xml" rel="self" type="application/rss+xml" />
     <description>投資初心者のための情報サイト。NISA・つみたて投資・米国株・日本株を毎朝7時に配信。</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 02 Jun 2026 21:30:22 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 04 Jun 2026 00:29:21 +0900</lastBuildDate>
+    <item>
+      <title>つみたて投資枠と成長投資枠、初心者はどう使い分ける？NISAの2つの枠を徹底解説</title>
+      <link>https://tsumitate-navi.net/articles/2026-06-04-つみたて投資枠と成長投資枠初心者はどう使い分ける.html</link>
+      <description>2024年から始まった新しいNISA制度には「つみたて投資枠」と「成長投資枠」の2種類があります。初心者がどちらをどう使えばよいか、具体例とシミュレーションを交えてわかりやすく解説します。</description>
+      <pubDate>Thu, 04 Jun 2026 07:00:00 +0900</pubDate>
+      <guid>https://tsumitate-navi.net/articles/2026-06-04-つみたて投資枠と成長投資枠初心者はどう使い分ける.html</guid>
+    </item>
     <item>
       <title>日本の個別株を買うときにチェックすべき5つの指標【初心者向けやさしく解説】</title>
       <link>https://tsumitate-navi.net/articles/2026-06-02-日本の個別株を買うときにチェックすべき5つの指標.html</link>
@@ -139,13 +146,6 @@
       <description>投資信託の信託報酬（運用コスト）を投資初心者向けにやさしく解説。0.1%と1%でどれだけ差がつくのか、低コスト投信を選ぶ3つの基準、注意したい隠れコストまでシミュレーション付きで紹介します。</description>
       <pubDate>Thu, 21 May 2026 07:00:00 +0900</pubDate>
       <guid>https://tsumitate-navi.net/articles/2026-05-21-trust-fee-comparison.html</guid>
-    </item>
-    <item>
-      <title>日経平均株価とTOPIX、何が違う？初心者向けにやさしく解説</title>
-      <link>https://tsumitate-navi.net/articles/2026-05-20-nikkei-vs-topix.html</link>
-      <description>日本株の代表的な指数「日経平均株価」と「TOPIX」の違いを投資初心者向けにやさしく解説。計算方法・採用銘柄・値動きの特徴と、インデックス投資で選ぶときのポイントをシミュレーション付きで紹介します。</description>
-      <pubDate>Wed, 20 May 2026 07:00:00 +0900</pubDate>
-      <guid>https://tsumitate-navi.net/articles/2026-05-20-nikkei-vs-topix.html</guid>
     </item>
   </channel>
 </rss>
