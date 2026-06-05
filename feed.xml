@@ -6,7 +6,14 @@
     <atom:link href="https://tsumitate-navi.net/feed.xml" rel="self" type="application/rss+xml" />
     <description>投資初心者のための情報サイト。NISA・つみたて投資・米国株・日本株を毎朝7時に配信。</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 04 Jun 2026 19:49:08 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 05 Jun 2026 20:00:02 +0900</lastBuildDate>
+    <item>
+      <title>投資を始める前に絶対やるべき家計の見直し｜お金の土台を整えてから投資をスタートしよう</title>
+      <link>https://tsumitate-navi.net/articles/2026-06-05-投資を始める前に絶対やるべき家計の見直し.html</link>
+      <description>「投資を始めたい」と思ったとき、最初にやるべきことは証券口座の開設ではありません。まず家計の現状を把握し、お金の流れを整えることが、長期的な資産形成への最短ルートです。</description>
+      <pubDate>Fri, 05 Jun 2026 07:00:00 +0900</pubDate>
+      <guid>https://tsumitate-navi.net/articles/2026-06-05-投資を始める前に絶対やるべき家計の見直し.html</guid>
+    </item>
     <item>
       <title>全米株式（VTI）vs 全世界株式、どちらを選ぶ？初心者が知っておきたい違いと選び方</title>
       <link>https://tsumitate-navi.net/articles/2026-06-04-全米株式VTIと全世界株式どちらを選ぶ.html</link>
@@ -139,13 +146,6 @@
       <description>「S&amp;amp;P500」という言葉をよく耳にするけど、何かよくわからない。そんな方へ。仕組みから実際の買い方まで、初心者にもわかるようにやさしく解説します。</description>
       <pubDate>Sat, 23 May 2026 07:00:00 +0900</pubDate>
       <guid>https://tsumitate-navi.net/articles/2026-05-23-SP500とは初心者にもわかる仕組みと買い方.html</guid>
-    </item>
-    <item>
-      <title>投資を始める前にやるべき家計の見直し｜初心者が最初に整える6つのチェックポイント</title>
-      <link>https://tsumitate-navi.net/articles/2026-05-22-household-budget-review.html</link>
-      <description>投資を始める前にやっておきたい家計の見直しを投資初心者向けにやさしく解説。固定費・生活防衛資金・保険・サブスクなど6つのチェックポイントを、月3万円捻出のシミュレーション付きで紹介します。</description>
-      <pubDate>Fri, 22 May 2026 07:00:00 +0900</pubDate>
-      <guid>https://tsumitate-navi.net/articles/2026-05-22-household-budget-review.html</guid>
     </item>
   </channel>
 </rss>
