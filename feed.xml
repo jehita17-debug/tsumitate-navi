@@ -6,7 +6,14 @@
     <atom:link href="https://tsumitate-navi.net/feed.xml" rel="self" type="application/rss+xml" />
     <description>投資初心者のための情報サイト。NISA・つみたて投資・米国株・日本株を毎朝7時に配信。</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 05 Jun 2026 20:00:02 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 06 Jun 2026 17:06:59 +0900</lastBuildDate>
+    <item>
+      <title>iDeCoとNISA、どっちを優先すべき？初心者向けに徹底比較</title>
+      <link>https://tsumitate-navi.net/articles/2026-06-06-iDeCoとNISAどっちを優先すべき.html</link>
+      <description>老後資金づくりに使えるiDeCoと、幅広い投資に対応するNISA。どちらも税制メリットが大きい制度ですが、「どっちを先に使うべき？」と迷う人は多いはず。この記事では両者の違いをわかりやすく整理し、あなたに合った優先順位の考え方を解説します。</description>
+      <pubDate>Sat, 06 Jun 2026 07:00:00 +0900</pubDate>
+      <guid>https://tsumitate-navi.net/articles/2026-06-06-iDeCoとNISAどっちを優先すべき.html</guid>
+    </item>
     <item>
       <title>投資を始める前に絶対やるべき家計の見直し｜お金の土台を整えてから投資をスタートしよう</title>
       <link>https://tsumitate-navi.net/articles/2026-06-05-投資を始める前に絶対やるべき家計の見直し.html</link>
@@ -139,13 +146,6 @@
       <description>新NISAで初心者がやりがちな失敗7パターンを投資初心者向けにやさしく解説。短期売買・テーマ型投信への集中・狼狽売り・非課税枠の使い切り焦りなど、回避策とシミュレーションを紹介します。</description>
       <pubDate>Sat, 23 May 2026 07:00:00 +0900</pubDate>
       <guid>https://tsumitate-navi.net/articles/2026-05-23-nisa-common-mistakes.html</guid>
-    </item>
-    <item>
-      <title>S&amp;amp;P500とは？初心者にもわかる仕組みと買い方をやさしく解説</title>
-      <link>https://tsumitate-navi.net/articles/2026-05-23-SP500とは初心者にもわかる仕組みと買い方.html</link>
-      <description>「S&amp;amp;P500」という言葉をよく耳にするけど、何かよくわからない。そんな方へ。仕組みから実際の買い方まで、初心者にもわかるようにやさしく解説します。</description>
-      <pubDate>Sat, 23 May 2026 07:00:00 +0900</pubDate>
-      <guid>https://tsumitate-navi.net/articles/2026-05-23-SP500とは初心者にもわかる仕組みと買い方.html</guid>
     </item>
   </channel>
 </rss>
