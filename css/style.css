@@ -283,6 +283,11 @@ a:hover {
 .article-thumb.thumb-us   { background: linear-gradient(135deg, #0b2545 0%, #d4a574 100%); }
 .article-thumb.thumb-jp   { background: linear-gradient(135deg, #134074 0%, #c8102e 100%); }
 .article-thumb.thumb-tsumitate { background: linear-gradient(135deg, #0b2545 0%, #6b7eff 100%); }
+.article-thumb.thumb-basic { background: linear-gradient(135deg, #0b2545 0%, #4f9da6 100%); }
+.article-thumb.thumb-fx { background: linear-gradient(135deg, #0b2545 0%, #2e8b8b 100%); }
+.article-thumb.thumb-commodity { background: linear-gradient(135deg, #5a3e1b 0%, #d4a574 100%); }
+.article-thumb.thumb-crypto { background: linear-gradient(135deg, #0b2545 0%, #f7931a 100%); }
+.article-thumb.thumb-global { background: linear-gradient(135deg, #134074 0%, #8e44ad 100%); }
 
 .article-thumb-label {
   position: absolute;
@@ -775,3 +780,46 @@ a:hover {
   .site-nav.open { display: flex; }
   .menu-toggle { display: block; }
 }
+
+/* ===== 記事内 動画（自動生成カルーセル動画） ===== */
+.article-video {
+  margin: 28px 0;
+  border-radius: 14px;
+  overflow: hidden;
+  background: #0b2545;
+  box-shadow: var(--shadow-md);
+}
+.article-video video {
+  display: block;
+  width: 100%;
+  max-width: 480px;
+  margin: 0 auto;
+  background: #0b2545;
+}
+.article-video .article-video-caption {
+  text-align: center;
+  font-size: 13px;
+  color: #d4a574;
+  padding: 10px 14px 14px;
+  letter-spacing: .02em;
+}
+
+/* ===== 動画ギャラリーページ ===== */
+.video-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 22px;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 24px;
+}
+.video-gallery-item {
+  background: #fff;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: var(--shadow-md);
+}
+.video-gallery-item video { display: block; width: 100%; background: #0b2545; }
+.video-gallery-item .vg-body { padding: 12px 14px 16px; }
+.video-gallery-item .vg-title { font-size: 14px; font-weight: 700; color: var(--color-primary); line-height: 1.5; }
+.video-gallery-item .vg-date { font-size: 12px; color: #9ca3af; margin-top: 6px; }

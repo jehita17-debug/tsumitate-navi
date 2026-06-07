@@ -19,6 +19,21 @@
     {"category": "資産形成", "thumb_class": "thumb-nisa", "title_seed": "投資を始める前に絶対やるべき家計の見直し", "keywords": "家計,投資,準備"},
     {"category": "資産形成", "thumb_class": "thumb-nisa", "title_seed": "緊急資金はいくら必要？投資との優先順位", "keywords": "緊急資金,生活防衛資金"},
     {"category": "資産形成", "thumb_class": "thumb-nisa", "title_seed": "iDeCoとNISA、どっちを優先すべき？", "keywords": "iDeCo,NISA,比較"},
-    {"category": "資産形成", "thumb_class": "thumb-nisa", "title_seed": "投資初心者がやってはいけない3つの行動", "keywords": "投資,失敗,初心者"}
+    {"category": "資産形成", "thumb_class": "thumb-nisa", "title_seed": "投資初心者がやってはいけない3つの行動", "keywords": "投資,失敗,初心者"},
+
+    {"category": "基礎解説", "thumb_class": "thumb-basic", "title_seed": "投資信託とは？初心者にもわかる仕組みとメリット・デメリット", "keywords": "投資信託,とは,初心者"},
+    {"category": "基礎解説", "thumb_class": "thumb-basic", "title_seed": "ETFとは？投資信託との違いをやさしく解説", "keywords": "ETF,とは,違い"},
+    {"category": "基礎解説", "thumb_class": "thumb-basic", "title_seed": "株とは？株式投資の仕組みを初心者向けに解説", "keywords": "株,株式投資,とは"},
+    {"category": "基礎解説", "thumb_class": "thumb-basic", "title_seed": "債券とは？仕組みと株式との違いをわかりやすく", "keywords": "債券,とは,初心者"},
+    {"category": "基礎解説", "thumb_class": "thumb-basic", "title_seed": "インデックス投資とは？初心者がまず知るべき基本", "keywords": "インデックス投資,とは"},
+    {"category": "FX・為替", "thumb_class": "thumb-fx", "title_seed": "FXとは？仕組み・レバレッジ・リスクを初心者向けに解説", "keywords": "FX,とは,レバレッジ,リスク"},
+    {"category": "FX・為替", "thumb_class": "thumb-fx", "title_seed": "為替レートはなぜ動く？円安・円高の仕組みと中東情勢の影響", "keywords": "為替,円安,円高,中東情勢"},
+    {"category": "コモディティ", "thumb_class": "thumb-commodity", "title_seed": "金（ゴールド）とは？なぜ「安全資産」と呼ばれるのか", "keywords": "金,ゴールド,安全資産,中東情勢"},
+    {"category": "コモディティ", "thumb_class": "thumb-commodity", "title_seed": "銀・プラチナとは？金との違いと価格が動く要因", "keywords": "銀,プラチナ,コモディティ"},
+    {"category": "コモディティ", "thumb_class": "thumb-commodity", "title_seed": "原油価格はなぜ動く？中東情勢と私たちの生活への影響", "keywords": "原油,価格,中東情勢"},
+    {"category": "仮想通貨", "thumb_class": "thumb-crypto", "title_seed": "仮想通貨（暗号資産）とは？仕組みとリスクを初心者向けに解説", "keywords": "仮想通貨,暗号資産,とは,リスク"},
+    {"category": "仮想通貨", "thumb_class": "thumb-crypto", "title_seed": "ビットコインとは？値動きの理由と地政学リスクとの関係", "keywords": "ビットコイン,仮想通貨,地政学リスク"},
+    {"category": "世界経済", "thumb_class": "thumb-global", "title_seed": "中東情勢と投資への影響をやさしく解説｜原油・金・株はどう動く？", "keywords": "中東情勢,投資,原油,金,影響"},
+    {"category": "世界経済", "thumb_class": "thumb-global", "title_seed": "地政学リスクとは？投資初心者が知っておきたい世界経済の基本", "keywords": "地政学リスク,世界経済,とは"}
   ]
 }
