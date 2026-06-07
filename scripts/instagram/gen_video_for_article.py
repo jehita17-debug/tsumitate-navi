@@ -1,19 +1,26 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-つみたてNAVI - 記事 → 動画 自動生成パイプライン
+つみたてNAVI - 記事 → Instagram投稿素材 自動生成パイプライン
 
 1記事（デフォルトは最新記事）を読み込み、
 Claude APIで「5枚カルーセル用のスライド内容」をJSONで生成し、
-slide_render.py でPNG5枚＋15秒MP4を作る。
-さらに、その動画を記事HTMLの本文先頭に埋め込み、
-videos/index.html（動画ギャラリー）を更新する。
+slide_render.py でカルーセル画像5枚＋15秒MP4（リール用）を作る。
+Instagram投稿用のキャプション（caption.txt）も書き出す。
+
+出力先: instagram/<記事スラッグ>/
+  01_cover.png 〜 05_cta.png  … カルーセル投稿用（1080×1080）
+  <slug>.mp4                  … リール/動画投稿用（15秒）
+  caption.txt                … 投稿キャプション＋ハッシュタグ
+  meta.json                  … 管理用メタ情報
+
+※記事ページへの埋め込みやサイト掲載は行わない（あくまでInstagram投稿用素材）。
 
 GitHub Actions（毎朝7時）から generate_article.py の直後に呼ばれる想定。
 
 使い方:
-  python scripts/instagram/gen_video_for_article.py            # 最新記事を動画化
-  python scripts/instagram/gen_video_for_article.py <html path># 指定記事を動画化
+  python scripts/instagram/gen_video_for_article.py            # 最新記事の素材を作る
+  python scripts/instagram/gen_video_for_article.py <html path># 指定記事の素材を作る
 """
 import json
 import os
@@ -27,9 +34,24 @@ import slide_render as sr  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[2]
 ARTICLES_DIR = ROOT / "articles"
-VIDEOS_DIR = ROOT / "videos"
+OUT_DIR = ROOT / "instagram"
 JST = timezone(timedelta(hours=9))
 SITE_URL = os.environ.get("SITE_URL", "https://tsumitate-navi.net")
+
+# カテゴリ別ハッシュタグ
+BASE_TAGS = ["#投資", "#投資初心者", "#資産運用", "#お金の勉強", "#つみたてNAVI"]
+CAT_TAGS = {
+    "NISA": ["#NISA", "#新NISA"],
+    "つみたて投資": ["#つみたて投資", "#積立投資"],
+    "米国株": ["#米国株", "#SP500"],
+    "日本株": ["#日本株", "#高配当株"],
+    "資産形成": ["#資産形成", "#家計管理"],
+    "基礎解説": ["#投資の基本", "#投資勉強"],
+    "FX・為替": ["#FX", "#為替", "#円安"],
+    "コモディティ": ["#金投資", "#ゴールド", "#コモディティ"],
+    "仮想通貨": ["#仮想通貨", "#暗号資産", "#ビットコイン"],
+    "世界経済": ["#世界経済", "#地政学リスク"],
+}
 
 
 # ---------------------------------------------------------------------
@@ -220,103 +242,25 @@ def slides_fallback(art: dict) -> dict:
 
 
 # ---------------------------------------------------------------------
-# 記事HTMLへ動画を埋め込む
+# Instagram投稿キャプション
 # ---------------------------------------------------------------------
-def embed_video(art_path: Path, slug: str, video_rel: str):
-    html = art_path.read_text(encoding="utf-8")
-    if 'class="article-video"' in html:
-        return False  # 既に埋め込み済み
-    block = (
-        '<div class="article-video">\n'
-        f'  <video controls preload="metadata" playsinline poster="../ogp.png">\n'
-        f'    <source src="{video_rel}" type="video/mp4">\n'
-        '    お使いのブラウザは動画に対応していません。\n'
-        '  </video>\n'
-        '  <div class="article-video-caption">▶ この記事の要点を15秒でチェック</div>\n'
-        '</div>\n'
+def make_caption(art: dict) -> str:
+    tags = BASE_TAGS + CAT_TAGS.get(art["category"], [])
+    return (
+        f"{art['title']}\n\n"
+        f"{art['lead']}\n\n"
+        "👉 詳しい解説はプロフィールのリンク（ブログ）から\n"
+        f"{SITE_URL}/articles/{art['slug']}.html\n\n"
+        "※投資は自己責任で。元本保証ではありません。\n\n"
+        + " ".join(tags)
     )
-    marker = '<div class="article-body-content">'
-    if marker in html:
-        html = html.replace(marker, marker + "\n  " + block, 1)
-        art_path.write_text(html, encoding="utf-8")
-        return True
-    return False
 
 
 # ---------------------------------------------------------------------
-# 動画ギャラリー（videos/index.html）を再生成
+# 1記事のInstagram素材を生成
 # ---------------------------------------------------------------------
-def rebuild_gallery():
-    metas = []
-    for meta_file in sorted(VIDEOS_DIR.glob("*/meta.json"), reverse=True):
-        try:
-            metas.append(json.loads(meta_file.read_text(encoding="utf-8")))
-        except Exception:
-            continue
-    metas.sort(key=lambda m: m.get("date", ""), reverse=True)
-    cards = []
-    for m in metas:
-        cards.append(f"""    <div class="video-gallery-item">
-      <video controls preload="metadata" playsinline poster="../ogp.png">
-        <source src="{m['video']}" type="video/mp4">
-      </video>
-      <div class="vg-body">
-        <div class="vg-title"><a href="../articles/{m['slug']}.html">{m['title']}</a></div>
-        <div class="vg-date">{m['date'].replace('-', '.')}　{m.get('category', '')}</div>
-      </div>
-    </div>""")
-    page = f"""<!DOCTYPE html>
-<html lang="ja">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="theme-color" content="#0b2545">
-<title>動画でわかる｜つみたてNAVI</title>
-<meta name="description" content="つみたてNAVIの記事を15秒の動画で要点チェック。NISA・投資信託・FX・金・仮想通貨・世界経済をやさしく解説。">
-<link rel="canonical" href="{SITE_URL}/videos/">
-<link rel="stylesheet" href="../css/style.css">
-</head>
-<body>
-<header class="site-header">
-  <div class="header-inner">
-    <a href="../" class="site-logo"><span class="logo-mark">N</span><span>つみたてNAVI</span></a>
-    <button class="menu-toggle" aria-label="メニュー">☰</button>
-    <nav class="site-nav" id="nav">
-      <a href="../#articles">記事一覧</a>
-      <a href="./">動画一覧</a>
-      <a href="../about.html">サイトについて</a>
-      <a href="../contact.html">お問い合わせ</a>
-    </nav>
-  </div>
-</header>
-<section style="text-align:center; padding:40px 24px 8px;">
-  <h1 style="color:#0b2545; margin:0 0 8px;">動画でわかる つみたてNAVI</h1>
-  <p style="color:#6b7280; margin:0;">各記事の要点を15秒でチェック</p>
-</section>
-<div class="video-gallery">
-{chr(10).join(cards) if cards else '<p style="text-align:center;color:#9ca3af;">動画は準備中です。</p>'}
-</div>
-<footer class="site-footer">
-  <div class="copyright">© <span>{datetime.now(JST).year}</span> つみたてNAVI All Rights Reserved.</div>
-</footer>
-<script>
-  document.querySelector('.menu-toggle')?.addEventListener('click', () => {{
-    document.getElementById('nav').classList.toggle('open');
-  }});
-</script>
-</body>
-</html>
-"""
-    VIDEOS_DIR.mkdir(exist_ok=True)
-    (VIDEOS_DIR / "index.html").write_text(page, encoding="utf-8")
-    print(f"[ok] rebuilt videos/index.html ({len(metas)} videos)")
-
-
-# ---------------------------------------------------------------------
-# メイン
-# ---------------------------------------------------------------------
-def main():
-    target = Path(sys.argv[1]) if len(sys.argv) > 1 else latest_article()
+def process_article(target: Path) -> str:
+    """1記事→カルーセル画像5枚＋15秒MP4＋caption.txt＋meta.json。slugを返す。"""
     art = parse_article(target)
     print(f"[info] article = {art['slug']} / {art['title']}")
 
@@ -330,23 +274,23 @@ def main():
         print("[warn] ANTHROPIC_API_KEY未設定→フォールバックでスライド生成")
         slides = slides_fallback(art)
 
-    out_dir = VIDEOS_DIR / art["slug"]
+    out_dir = OUT_DIR / art["slug"]
     video_name = f"{art['slug']}.mp4"
     sr.build_article_assets(str(out_dir), video_name, slides)
-    print(f"[ok] generated PNG×5 + {video_name}")
+    print(f"[ok] generated カルーセル5枚 + {video_name}")
 
-    video_rel = f"../videos/{art['slug']}/{video_name}"
-    if embed_video(art["path"], art["slug"], video_rel):
-        print("[ok] embedded video into article")
-    else:
-        print("[info] video already embedded (skip)")
-
+    (out_dir / "caption.txt").write_text(make_caption(art), encoding="utf-8")
     (out_dir / "meta.json").write_text(json.dumps({
         "slug": art["slug"], "title": art["title"], "category": art["category"],
         "date": art["date"], "video": f"{art['slug']}/{video_name}",
     }, ensure_ascii=False), encoding="utf-8")
+    print("[ok] wrote caption.txt + meta.json")
+    return art["slug"]
 
-    rebuild_gallery()
+
+def main():
+    target = Path(sys.argv[1]) if len(sys.argv) > 1 else latest_article()
+    process_article(target)
     print("[done]")
 
 

@@ -1,16 +1,26 @@
-name: Daily Article Generation (毎朝7時 JST)
+name: Backfill Videos (過去記事の動画まとめ生成)
 
 on:
-  schedule:
-    # JST 7:00 = UTC 22:00 (前日)
-    - cron: '0 22 * * *'
-  workflow_dispatch: # 手動実行も可能
+  workflow_dispatch:
+    inputs:
+      since_date:
+        description: 'この日付以降の記事を動画化 (YYYY-MM-DD)'
+        required: false
+        default: '2026-05-27'
+      until_date:
+        description: 'この日付以前の記事を動画化 (YYYY-MM-DD)'
+        required: false
+        default: '9999-12-31'
+      force:
+        description: '既存の動画も作り直す場合は 1'
+        required: false
+        default: ''
 
 permissions:
   contents: write
 
 jobs:
-  generate:
+  backfill:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo
@@ -31,26 +41,23 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r scripts/requirements.txt
 
-      - name: Generate today's article
+      - name: Backfill videos
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          SINCE_DATE: ${{ github.event.inputs.since_date }}
+          UNTIL_DATE: ${{ github.event.inputs.until_date }}
+          FORCE: ${{ github.event.inputs.force }}
         run: |
-          python scripts/generate_article.py
-
-      - name: Generate Instagram assets for today's article
-        env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        run: |
-          python scripts/instagram/gen_video_for_article.py
+          python scripts/instagram/backfill_videos.py
 
       - name: Commit & push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add articles/ index.html feed.xml sitemap.xml instagram/
+          git add instagram/
           if git diff --staged --quiet; then
             echo "No changes to commit."
           else
-            git commit -m "auto: 自動投稿＋Instagram素材 $(date -u +'%Y-%m-%d')"
+            git commit -m "auto: 過去記事のInstagram素材バックフィル $(date -u +'%Y-%m-%d')"
             git push
           fi
