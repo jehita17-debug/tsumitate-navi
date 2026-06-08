@@ -285,3 +285,4 @@ def build_article_assets(article_dir, video_name, slides):
     slide_points(os.path.join(article_dir, "04_steps_2.png"), **slides["points2"])
     slide_cta(os.path.join(article_dir, "05_cta.png"), **slides["cta"])
     return make_video(article_dir, video_name)
+)
