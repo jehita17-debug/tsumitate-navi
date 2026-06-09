@@ -15,6 +15,10 @@ import sys
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
+# このスクリプトと同じ scripts/ ディレクトリの共有モジュールを読めるようにする
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from thumb_icons import category_icon
+
 try:
     from anthropic import Anthropic
 except ImportError:
@@ -242,7 +246,7 @@ def update_index(date_str: str, slug: str, title: str, excerpt: str, topic: dict
         <a href=\"articles/{date_str}-{slug}.html\">
           <div class=\"article-thumb {topic['thumb_class']}\">
             <span class=\"article-thumb-label\">{topic['category']}</span>
-            <span>N</span>
+            {category_icon(topic['category'])}
           </div>
           <div class=\"article-body\">
             <div class=\"article-date\">{date_str.replace('-', '.')}</div>

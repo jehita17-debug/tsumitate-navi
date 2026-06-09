@@ -22,8 +22,13 @@ GitHub Desktop で pull したときに feed.xml / index.html / sitemap.xml が
 """
 import json
 import re
+import sys
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
+
+# 同じ scripts/ ディレクトリの共有モジュールを読めるようにする
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from thumb_icons import category_icon
 
 ROOT = Path(__file__).resolve().parents[1]
 ARTICLES_DIR = ROOT / "articles"
@@ -107,7 +112,7 @@ def rebuild_index(items, thumb_map):
             f"        <a href=\"articles/{it['name']}\">\n"
             f"          <div class=\"article-thumb {thumb}\">\n"
             f"            <span class=\"article-thumb-label\">{it['category']}</span>\n"
-            "            <span>N</span>\n"
+            f"            {category_icon(it['category'])}\n"
             "          </div>\n"
             "          <div class=\"article-body\">\n"
             f"            <div class=\"article-date\">{date_dot}</div>\n"
