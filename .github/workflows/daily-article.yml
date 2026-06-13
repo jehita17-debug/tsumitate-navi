@@ -38,6 +38,7 @@ jobs:
           python scripts/generate_article.py
 
       - name: Generate Instagram assets for today's article
+        continue-on-error: true  # 動画生成が失敗しても記事のコミット＆公開は止めない
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
@@ -47,7 +48,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add articles/ index.html feed.xml sitemap.xml instagram/
+          git add -A
           if git diff --staged --quiet; then
             echo "No changes to commit."
           else
