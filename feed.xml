@@ -6,7 +6,14 @@
     <atom:link href="https://tsumitate-navi.net/feed.xml" rel="self" type="application/rss+xml" />
     <description>投資初心者のための情報サイト。NISA・つみたて投資・米国株・日本株を毎朝7時に配信。</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 14 Jun 2026 08:09:11 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 15 Jun 2026 08:12:01 +0900</lastBuildDate>
+    <item>
+      <title>FXとは？仕組み・レバレッジ・リスクを初心者向けにやさしく解説</title>
+      <link>https://tsumitate-navi.net/articles/2026-06-15-FXとは仕組みレバレッジリスクを初心者向けに解説.html</link>
+      <description>FXは「外国為替取引」のこと。少ない資金で大きな取引ができる半面、損失も拡大しやすいリスクがあります。初心者が知っておきたい仕組みとリスクを丁寧に解説します。</description>
+      <pubDate>Mon, 15 Jun 2026 07:00:00 +0900</pubDate>
+      <guid>https://tsumitate-navi.net/articles/2026-06-15-FXとは仕組みレバレッジリスクを初心者向けに解説.html</guid>
+    </item>
     <item>
       <title>投資信託とは？初心者にもわかる仕組みとメリット・デメリット</title>
       <link>https://tsumitate-navi.net/articles/2026-06-14-投資信託とは初心者にもわかる仕組みとメリットデメリット.html</link>
@@ -139,13 +146,6 @@
       <description>米国株の投資信託に出てくる「ドル建て」「円建て」「為替ヘッジあり・なし」の違いを投資初心者向けにやさしく解説。為替が損益にどう影響するかをシミュレーション付きで整理します。</description>
       <pubDate>Tue, 02 Jun 2026 07:00:00 +0900</pubDate>
       <guid>https://tsumitate-navi.net/articles/2026-06-02-dollar-vs-yen-fund.html</guid>
-    </item>
-    <item>
-      <title>NISA口座の金融機関を変更する方法と注意点｜初心者向け</title>
-      <link>https://tsumitate-navi.net/articles/2026-06-01-nisa-change-financial-institution.html</link>
-      <description>NISA口座は1年に1回、別の金融機関へ変更できます。変更の手続きの流れ、いつまでに申し込めばいいか、変更後に元の口座の資産はどうなるかを投資初心者向けにやさしく解説。失敗しやすいポイントもチェックリスト付きで紹介します。</description>
-      <pubDate>Mon, 01 Jun 2026 07:00:00 +0900</pubDate>
-      <guid>https://tsumitate-navi.net/articles/2026-06-01-nisa-change-financial-institution.html</guid>
     </item>
   </channel>
 </rss>
