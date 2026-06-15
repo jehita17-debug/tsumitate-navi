@@ -6,7 +6,14 @@
     <atom:link href="https://tsumitate-navi.net/feed.xml" rel="self" type="application/rss+xml" />
     <description>投資初心者のための情報サイト。NISA・つみたて投資・米国株・日本株を毎朝7時に配信。</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 15 Jun 2026 08:12:01 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 16 Jun 2026 08:48:25 +0900</lastBuildDate>
+    <item>
+      <title>ドルコスト平均法とは？仕組みとメリット・デメリットをわかりやすく解説</title>
+      <link>https://tsumitate-navi.net/articles/2026-06-16-ドルコスト平均法とは仕組みとメリットデメリット.html</link>
+      <description>「毎月一定額を積み立てるだけで、なぜリスクが下がるの？」その答えが「ドルコスト平均法」にあります。仕組みから実例・注意点まで初心者にもわかりやすく解説します。</description>
+      <pubDate>Tue, 16 Jun 2026 07:00:00 +0900</pubDate>
+      <guid>https://tsumitate-navi.net/articles/2026-06-16-ドルコスト平均法とは仕組みとメリットデメリット.html</guid>
+    </item>
     <item>
       <title>FXとは？仕組み・レバレッジ・リスクを初心者向けにやさしく解説</title>
       <link>https://tsumitate-navi.net/articles/2026-06-15-FXとは仕組みレバレッジリスクを初心者向けに解説.html</link>
@@ -139,13 +146,6 @@
       <description>2024年から始まった新NISAで、多くの人が選んでいる銘柄はどれ？ランキング形式でわかりやすく解説します。投資初心者でも安心して参考にできる選び方のポイントも紹介します。</description>
       <pubDate>Tue, 02 Jun 2026 07:00:00 +0900</pubDate>
       <guid>https://tsumitate-navi.net/articles/2026-06-02-新NISAで人気の銘柄ランキング徹底解説.html</guid>
-    </item>
-    <item>
-      <title>ドル建て・円建て投資信託、どちらが有利？初心者向けに為替の仕組みを解説</title>
-      <link>https://tsumitate-navi.net/articles/2026-06-02-dollar-vs-yen-fund.html</link>
-      <description>米国株の投資信託に出てくる「ドル建て」「円建て」「為替ヘッジあり・なし」の違いを投資初心者向けにやさしく解説。為替が損益にどう影響するかをシミュレーション付きで整理します。</description>
-      <pubDate>Tue, 02 Jun 2026 07:00:00 +0900</pubDate>
-      <guid>https://tsumitate-navi.net/articles/2026-06-02-dollar-vs-yen-fund.html</guid>
     </item>
   </channel>
 </rss>
