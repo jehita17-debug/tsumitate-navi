@@ -6,27 +6,27 @@
     <atom:link href="https://tsumitate-navi.net/feed.xml" rel="self" type="application/rss+xml" />
     <description>投資初心者のための情報サイト。NISA・つみたて投資・米国株・日本株を毎朝7時に配信。</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 16 Jun 2026 08:48:25 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 17 Jun 2026 07:27:42 +0900</lastBuildDate>
     <item>
-      <title>ドルコスト平均法とは？仕組みとメリット・デメリットをわかりやすく解説</title>
-      <link>https://tsumitate-navi.net/articles/2026-06-16-ドルコスト平均法とは仕組みとメリットデメリット.html</link>
-      <description>「毎月一定額を積み立てるだけで、なぜリスクが下がるの？」その答えが「ドルコスト平均法」にあります。仕組みから実例・注意点まで初心者にもわかりやすく解説します。</description>
-      <pubDate>Tue, 16 Jun 2026 07:00:00 +0900</pubDate>
-      <guid>https://tsumitate-navi.net/articles/2026-06-16-ドルコスト平均法とは仕組みとメリットデメリット.html</guid>
+      <title>株とは？株式投資の仕組みを初心者にもわかるようにやさしく解説</title>
+      <link>https://tsumitate-navi.net/articles/2026-06-17-what-is-stock.html</link>
+      <description>株（株式）とは会社の持ち分を表す証券です。株主になると得られる権利、値上がり益と配当という2つの利益、株価が動く理由、そして初心者がつみたて投資とどう向き合うべきかを、図表と数値例でやさしく解説します。</description>
+      <pubDate>Wed, 17 Jun 2026 07:00:00 +0900</pubDate>
+      <guid>https://tsumitate-navi.net/articles/2026-06-17-what-is-stock.html</guid>
     </item>
     <item>
       <title>FXとは？仕組み・レバレッジ・リスクを初心者向けにやさしく解説</title>
-      <link>https://tsumitate-navi.net/articles/2026-06-15-FXとは仕組みレバレッジリスクを初心者向けに解説.html</link>
-      <description>FXは「外国為替取引」のこと。少ない資金で大きな取引ができる半面、損失も拡大しやすいリスクがあります。初心者が知っておきたい仕組みとリスクを丁寧に解説します。</description>
-      <pubDate>Mon, 15 Jun 2026 07:00:00 +0900</pubDate>
-      <guid>https://tsumitate-navi.net/articles/2026-06-15-FXとは仕組みレバレッジリスクを初心者向けに解説.html</guid>
+      <link>https://tsumitate-navi.net/articles/2026-06-16-what-is-fx.html</link>
+      <description>FX（外国為替証拠金取引）は通貨を売買して為替差益をねらう取引です。仕組み、レバレッジ、スワップポイント、初心者が知るべきリスクを図表と数値例でやさしく解説。つみたて投資との違いも整理します。</description>
+      <pubDate>Tue, 16 Jun 2026 07:00:00 +0900</pubDate>
+      <guid>https://tsumitate-navi.net/articles/2026-06-16-what-is-fx.html</guid>
     </item>
     <item>
-      <title>投資信託とは？初心者にもわかる仕組みとメリット・デメリット</title>
-      <link>https://tsumitate-navi.net/articles/2026-06-14-投資信託とは初心者にもわかる仕組みとメリットデメリット.html</link>
-      <description>「投資信託って何？」という疑問をお持ちの方へ。少額から始められる投資信託の仕組みや、メリット・デメリットをやさしく解説します。NISAとの組み合わせ方も紹介！</description>
+      <title>為替レートはなぜ動く？円安・円高の仕組みと中東情勢の影響をやさしく解説</title>
+      <link>https://tsumitate-navi.net/articles/2026-06-14-why-exchange-rate-moves.html</link>
+      <description>為替レートは金利差・景気・地政学リスクなどで日々動き、円安・円高は私たちの暮らしや投資にも影響します。為替が動く仕組み、円安と円高の違い、中東情勢との関係、初心者の向き合い方を図表と数値例でやさしく解説します。</description>
       <pubDate>Sun, 14 Jun 2026 07:00:00 +0900</pubDate>
-      <guid>https://tsumitate-navi.net/articles/2026-06-14-投資信託とは初心者にもわかる仕組みとメリットデメリット.html</guid>
+      <guid>https://tsumitate-navi.net/articles/2026-06-14-why-exchange-rate-moves.html</guid>
     </item>
     <item>
       <title>原油価格はなぜ動く？中東情勢と私たちの生活への影響をやさしく解説</title>
@@ -64,25 +64,11 @@
       <guid>https://tsumitate-navi.net/articles/2026-06-08-what-is-mutual-fund.html</guid>
     </item>
     <item>
-      <title>仮想通貨（暗号資産）とは？仕組みとリスクを初心者向けにやさしく解説</title>
-      <link>https://tsumitate-navi.net/articles/2026-06-07-仮想通貨暗号資産とは仕組みとリスクを初心者向けに解説.html</link>
-      <description>ビットコインやイーサリアムなど「仮想通貨」という言葉は知っているけど、仕組みがよくわからない…そんな方のために、基礎から価格変動リスクまでわかりやすく解説します。</description>
-      <pubDate>Sun, 07 Jun 2026 07:00:00 +0900</pubDate>
-      <guid>https://tsumitate-navi.net/articles/2026-06-07-仮想通貨暗号資産とは仕組みとリスクを初心者向けに解説.html</guid>
-    </item>
-    <item>
       <title>インデックス投資とアクティブ投資の違い｜初心者はどちらを選ぶ？</title>
       <link>https://tsumitate-navi.net/articles/2026-06-07-index-vs-active.html</link>
       <description>投資信託選びで必ず出会う「インデックス型」と「アクティブ型」。市場平均を目指すか上回ることを目指すか、その違いとコスト・成績の傾向を、数値シミュレーションを交えて初心者向けにやさしく解説します。</description>
       <pubDate>Sun, 07 Jun 2026 07:00:00 +0900</pubDate>
       <guid>https://tsumitate-navi.net/articles/2026-06-07-index-vs-active.html</guid>
-    </item>
-    <item>
-      <title>iDeCoとNISA、どっちを優先すべき？初心者向けに徹底比較</title>
-      <link>https://tsumitate-navi.net/articles/2026-06-06-iDeCoとNISAどっちを優先すべき.html</link>
-      <description>老後資金づくりに使えるiDeCoと、幅広い投資に対応するNISA。どちらも税制メリットが大きい制度ですが、「どっちを先に使うべき？」と迷う人は多いはず。この記事では両者の違いをわかりやすく整理し、あなたに合った優先順位の考え方を解説します。</description>
-      <pubDate>Sat, 06 Jun 2026 07:00:00 +0900</pubDate>
-      <guid>https://tsumitate-navi.net/articles/2026-06-06-iDeCoとNISAどっちを優先すべき.html</guid>
     </item>
     <item>
       <title>複利とは？「雪だるま式」にお金が増える仕組みを初心者向けに解説</title>
@@ -92,32 +78,11 @@
       <guid>https://tsumitate-navi.net/articles/2026-06-06-compound-interest.html</guid>
     </item>
     <item>
-      <title>投資を始める前に絶対やるべき家計の見直し｜お金の土台を整えてから投資をスタートしよう</title>
-      <link>https://tsumitate-navi.net/articles/2026-06-05-投資を始める前に絶対やるべき家計の見直し.html</link>
-      <description>「投資を始めたい」と思ったとき、最初にやるべきことは証券口座の開設ではありません。まず家計の現状を把握し、お金の流れを整えることが、長期的な資産形成への最短ルートです。</description>
-      <pubDate>Fri, 05 Jun 2026 07:00:00 +0900</pubDate>
-      <guid>https://tsumitate-navi.net/articles/2026-06-05-投資を始める前に絶対やるべき家計の見直し.html</guid>
-    </item>
-    <item>
       <title>新NISAの出口戦略｜資産の取り崩し方と「4%ルール」を初心者向けに解説</title>
       <link>https://tsumitate-navi.net/articles/2026-06-05-withdrawal-strategy.html</link>
       <description>積み立てた資産を、いざ使うときにどう取り崩せばいいのか。定額・定率という2つの方法と、よく話題になる「4%ルール」の考え方を初心者向けにやさしく解説。シミュレーション付きで出口戦略の基本を整理します。</description>
       <pubDate>Fri, 05 Jun 2026 07:00:00 +0900</pubDate>
       <guid>https://tsumitate-navi.net/articles/2026-06-05-withdrawal-strategy.html</guid>
-    </item>
-    <item>
-      <title>全米株式（VTI）vs 全世界株式、どちらを選ぶ？初心者が知っておきたい違いと選び方</title>
-      <link>https://tsumitate-navi.net/articles/2026-06-04-全米株式VTIと全世界株式どちらを選ぶ.html</link>
-      <description>つみたて投資を始めようとすると必ず出てくる「全米株式（VTI）」と「全世界株式」。どちらがいいか迷っている初心者向けに、特徴・リスク・シミュレーションをわかりやすく解説します。</description>
-      <pubDate>Thu, 04 Jun 2026 07:00:00 +0900</pubDate>
-      <guid>https://tsumitate-navi.net/articles/2026-06-04-全米株式VTIと全世界株式どちらを選ぶ.html</guid>
-    </item>
-    <item>
-      <title>つみたて投資枠と成長投資枠、初心者はどう使い分ける？NISAの2つの枠を徹底解説</title>
-      <link>https://tsumitate-navi.net/articles/2026-06-04-つみたて投資枠と成長投資枠初心者はどう使い分ける.html</link>
-      <description>2024年から始まった新しいNISA制度には「つみたて投資枠」と「成長投資枠」の2種類があります。初心者がどちらをどう使えばよいか、具体例とシミュレーションを交えてわかりやすく解説します。</description>
-      <pubDate>Thu, 04 Jun 2026 07:00:00 +0900</pubDate>
-      <guid>https://tsumitate-navi.net/articles/2026-06-04-つみたて投資枠と成長投資枠初心者はどう使い分ける.html</guid>
     </item>
     <item>
       <title>新NISAで人気の投資信託の特徴と選び方｜初心者向けにやさしく解説</title>
@@ -127,25 +92,60 @@
       <guid>https://tsumitate-navi.net/articles/2026-06-04-nisa-popular-funds.html</guid>
     </item>
     <item>
-      <title>投資初心者がやってはいけない3つの行動｜つみたてNAVI</title>
+      <title>投資初心者がやってはいけない3つの行動</title>
       <link>https://tsumitate-navi.net/articles/2026-06-03-investor-mistakes.html</link>
       <description>投資を始めたばかりの人が陥りやすい「やってはいけない3つの行動」を初心者向けにやさしく解説。狼狽売り・集中投資・短期での一喜一憂が、なぜ資産形成の妨げになるのかをシミュレーション付きで整理します。</description>
       <pubDate>Wed, 03 Jun 2026 07:00:00 +0900</pubDate>
       <guid>https://tsumitate-navi.net/articles/2026-06-03-investor-mistakes.html</guid>
     </item>
     <item>
-      <title>日本の個別株を買うときにチェックすべき5つの指標【初心者向けやさしく解説】</title>
-      <link>https://tsumitate-navi.net/articles/2026-06-02-日本の個別株を買うときにチェックすべき5つの指標.html</link>
-      <description>個別株への投資は「どの会社を買えばいい？」という疑問からスタートします。プロが実際に使う5つの基本指標を知るだけで、銘柄選びの目線がグッと変わります。</description>
+      <title>ドル建て・円建て投資信託、どちらが有利？初心者向けに為替の仕組みを解説</title>
+      <link>https://tsumitate-navi.net/articles/2026-06-02-dollar-vs-yen-fund.html</link>
+      <description>米国株の投資信託に出てくる「ドル建て」「円建て」「為替ヘッジあり・なし」の違いを投資初心者向けにやさしく解説。為替が損益にどう影響するかをシミュレーション付きで整理します。</description>
       <pubDate>Tue, 02 Jun 2026 07:00:00 +0900</pubDate>
-      <guid>https://tsumitate-navi.net/articles/2026-06-02-日本の個別株を買うときにチェックすべき5つの指標.html</guid>
+      <guid>https://tsumitate-navi.net/articles/2026-06-02-dollar-vs-yen-fund.html</guid>
     </item>
     <item>
-      <title>新NISAで人気の銘柄ランキング徹底解説｜初心者が選ぶべき理由も紹介</title>
-      <link>https://tsumitate-navi.net/articles/2026-06-02-新NISAで人気の銘柄ランキング徹底解説.html</link>
-      <description>2024年から始まった新NISAで、多くの人が選んでいる銘柄はどれ？ランキング形式でわかりやすく解説します。投資初心者でも安心して参考にできる選び方のポイントも紹介します。</description>
-      <pubDate>Tue, 02 Jun 2026 07:00:00 +0900</pubDate>
-      <guid>https://tsumitate-navi.net/articles/2026-06-02-新NISAで人気の銘柄ランキング徹底解説.html</guid>
+      <title>NISA口座の金融機関を変更する方法と注意点｜初心者向け</title>
+      <link>https://tsumitate-navi.net/articles/2026-06-01-nisa-change-financial-institution.html</link>
+      <description>NISA口座は1年に1回、別の金融機関へ変更できます。変更の手続きの流れ、いつまでに申し込めばいいか、変更後に元の口座の資産はどうなるかを投資初心者向けにやさしく解説。失敗しやすいポイントもチェックリスト付きで紹介します。</description>
+      <pubDate>Mon, 01 Jun 2026 07:00:00 +0900</pubDate>
+      <guid>https://tsumitate-navi.net/articles/2026-06-01-nisa-change-financial-institution.html</guid>
+    </item>
+    <item>
+      <title>日本の個別株を買うときにチェックすべき5つの指標｜初心者向け</title>
+      <link>https://tsumitate-navi.net/articles/2026-05-31-japan-stock-indicators.html</link>
+      <description>日本の個別株を買う前に確認したいPER・PBR・ROE・配当性向・自己資本比率の5つの指標を投資初心者向けにやさしく解説。数字の意味と目安、よくある勘違いを具体例とシミュレーション付きで紹介します。</description>
+      <pubDate>Sun, 31 May 2026 07:00:00 +0900</pubDate>
+      <guid>https://tsumitate-navi.net/articles/2026-05-31-japan-stock-indicators.html</guid>
+    </item>
+    <item>
+      <title>株主優待を活用した投資戦略｜初心者向けの選び方と5つのチェックポイント</title>
+      <link>https://tsumitate-navi.net/articles/2026-05-29-shareholder-benefit.html</link>
+      <description>株主優待を活用した投資戦略を投資初心者向けにやさしく解説。優待利回りの計算、銘柄選びの5つのチェックポイント、100万円ポートフォリオのシミュレーション、初心者がハマりやすい落とし穴まで具体例付きで紹介します。</description>
+      <pubDate>Fri, 29 May 2026 07:00:00 +0900</pubDate>
+      <guid>https://tsumitate-navi.net/articles/2026-05-29-shareholder-benefit.html</guid>
+    </item>
+    <item>
+      <title>日本の高配当株の選び方｜配当利回りだけで選んではいけない3つの理由</title>
+      <link>https://tsumitate-navi.net/articles/2026-05-28-japan-high-dividend-stocks.html</link>
+      <description>日本の高配当株を選ぶときに、配当利回りだけを見て買うと失敗しやすい理由を投資初心者向けにやさしく解説。配当性向・増配の継続性・営業キャッシュフローなど5つのチェックポイントと、100万円ポートフォリオのシミュレーション付き。</description>
+      <pubDate>Thu, 28 May 2026 07:00:00 +0900</pubDate>
+      <guid>https://tsumitate-navi.net/articles/2026-05-28-japan-high-dividend-stocks.html</guid>
+    </item>
+    <item>
+      <title>米国高配当株ETFの選び方｜VYM・HDV・SPYDの違いを初心者向けに徹底比較</title>
+      <link>https://tsumitate-navi.net/articles/2026-05-27-us-high-dividend-etf.html</link>
+      <description>米国高配当株ETFの代表「VYM・HDV・SPYD」の違いを投資初心者向けにやさしく解説。配当利回り・経費率・銘柄構成・値動きの特徴を比較し、用途別の選び方をシミュレーション付きで紹介します。</description>
+      <pubDate>Wed, 27 May 2026 07:00:00 +0900</pubDate>
+      <guid>https://tsumitate-navi.net/articles/2026-05-27-us-high-dividend-etf.html</guid>
+    </item>
+    <item>
+      <title>20年つみたて投資をしたら本当にいくらになる？利回り・金額別シミュレーション</title>
+      <link>https://tsumitate-navi.net/articles/2026-05-26-20-year-tsumitate-simulation.html</link>
+      <description>毎月3万円を20年つみたて投資したら本当にいくらになるのか、年利1%・3%・5%・7%別にシミュレーション。月額別の到達額や、暴落シナリオも含めて投資初心者向けにやさしく解説します。</description>
+      <pubDate>Tue, 26 May 2026 07:00:00 +0900</pubDate>
+      <guid>https://tsumitate-navi.net/articles/2026-05-26-20-year-tsumitate-simulation.html</guid>
     </item>
   </channel>
 </rss>
