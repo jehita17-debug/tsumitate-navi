@@ -6,7 +6,14 @@
     <atom:link href="https://tsumitate-navi.net/feed.xml" rel="self" type="application/rss+xml" />
     <description>投資初心者のための情報サイト。NISA・つみたて投資・米国株・日本株を毎朝7時に配信。</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 17 Jun 2026 08:26:18 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 18 Jun 2026 08:27:58 +0900</lastBuildDate>
+    <item>
+      <title>銀・プラチナとは？金との違いと価格が動く要因をやさしく解説</title>
+      <link>https://tsumitate-navi.net/articles/2026-06-18-銀プラチナとは金との違いと価格が動く要因.html</link>
+      <description>投資の世界では金（ゴールド）が注目されがちですが、銀やプラチナも個性豊かな資産です。それぞれの特徴と価格変動のしくみをわかりやすく解説します。</description>
+      <pubDate>Thu, 18 Jun 2026 07:00:00 +0900</pubDate>
+      <guid>https://tsumitate-navi.net/articles/2026-06-18-銀プラチナとは金との違いと価格が動く要因.html</guid>
+    </item>
     <item>
       <title>インデックス投資とは？初心者がまず知るべき基本をわかりやすく解説</title>
       <link>https://tsumitate-navi.net/articles/2026-06-17-インデックス投資とは初心者がまず知るべき基本.html</link>
@@ -139,13 +146,6 @@
       <description>つみたて投資を始めようとすると必ず出てくる「全米株式（VTI）」と「全世界株式」。どちらがいいか迷っている初心者向けに、特徴・リスク・シミュレーションをわかりやすく解説します。</description>
       <pubDate>Thu, 04 Jun 2026 07:00:00 +0900</pubDate>
       <guid>https://tsumitate-navi.net/articles/2026-06-04-全米株式VTIと全世界株式どちらを選ぶ.html</guid>
-    </item>
-    <item>
-      <title>つみたて投資枠と成長投資枠、初心者はどう使い分ける？NISAの2つの枠を徹底解説</title>
-      <link>https://tsumitate-navi.net/articles/2026-06-04-つみたて投資枠と成長投資枠初心者はどう使い分ける.html</link>
-      <description>2024年から始まった新しいNISA制度には「つみたて投資枠」と「成長投資枠」の2種類があります。初心者がどちらをどう使えばよいか、具体例とシミュレーションを交えてわかりやすく解説します。</description>
-      <pubDate>Thu, 04 Jun 2026 07:00:00 +0900</pubDate>
-      <guid>https://tsumitate-navi.net/articles/2026-06-04-つみたて投資枠と成長投資枠初心者はどう使い分ける.html</guid>
     </item>
   </channel>
 </rss>
