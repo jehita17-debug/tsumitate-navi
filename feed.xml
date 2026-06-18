@@ -6,7 +6,14 @@
     <atom:link href="https://tsumitate-navi.net/feed.xml" rel="self" type="application/rss+xml" />
     <description>投資初心者のための情報サイト。NISA・つみたて投資・米国株・日本株を毎朝7時に配信。</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 18 Jun 2026 08:27:58 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 19 Jun 2026 08:48:35 +0900</lastBuildDate>
+    <item>
+      <title>米国高配当株ETFの選び方｜VYM・HDV・SPYDの違いをやさしく解説</title>
+      <link>https://tsumitate-navi.net/articles/2026-06-19-米国高配当株ETFの選び方VYMHDVSPYDの違い.html</link>
+      <description>配当収入を得ながら米国株に投資できる高配当ETF。VYM・HDV・SPYDの3つは何が違うのか、初心者でもわかるように特徴・配当利回り・リスクを比較します。</description>
+      <pubDate>Fri, 19 Jun 2026 07:00:00 +0900</pubDate>
+      <guid>https://tsumitate-navi.net/articles/2026-06-19-米国高配当株ETFの選び方VYMHDVSPYDの違い.html</guid>
+    </item>
     <item>
       <title>銀・プラチナとは？金との違いと価格が動く要因をやさしく解説</title>
       <link>https://tsumitate-navi.net/articles/2026-06-18-銀プラチナとは金との違いと価格が動く要因.html</link>
@@ -139,13 +146,6 @@
       <description>積み立てた資産を、いざ使うときにどう取り崩せばいいのか。定額・定率という2つの方法と、よく話題になる「4%ルール」の考え方を初心者向けにやさしく解説。シミュレーション付きで出口戦略の基本を整理します。</description>
       <pubDate>Fri, 05 Jun 2026 07:00:00 +0900</pubDate>
       <guid>https://tsumitate-navi.net/articles/2026-06-05-withdrawal-strategy.html</guid>
-    </item>
-    <item>
-      <title>全米株式（VTI）vs 全世界株式、どちらを選ぶ？初心者が知っておきたい違いと選び方</title>
-      <link>https://tsumitate-navi.net/articles/2026-06-04-全米株式VTIと全世界株式どちらを選ぶ.html</link>
-      <description>つみたて投資を始めようとすると必ず出てくる「全米株式（VTI）」と「全世界株式」。どちらがいいか迷っている初心者向けに、特徴・リスク・シミュレーションをわかりやすく解説します。</description>
-      <pubDate>Thu, 04 Jun 2026 07:00:00 +0900</pubDate>
-      <guid>https://tsumitate-navi.net/articles/2026-06-04-全米株式VTIと全世界株式どちらを選ぶ.html</guid>
     </item>
   </channel>
 </rss>
