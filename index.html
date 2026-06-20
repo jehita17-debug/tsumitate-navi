@@ -654,7 +654,8 @@
   // カテゴリチップによる記事の絞り込み
   (function () {
     var chips = document.querySelectorAll('.category-chips .chip');
-    var cards = document.querySelectorAll('#article-list .article-card');
+    var listEl = document.getElementById('article-list');
+    var cards = Array.prototype.slice.call(document.querySelectorAll('#article-list .article-card'));
 
     function labelOf(card) {
       var el = card.querySelector('.article-thumb-label');
@@ -663,9 +664,15 @@
 
     function applyFilter(cats) {
       var list = cats ? cats.split(',') : [];
-      cards.forEach(function (card) {
-        var show = list.length === 0 || list.indexOf(labelOf(card)) !== -1;
-        card.style.display = show ? '' : 'none';
+      var matching = cards.filter(function (card) {
+        return list.length === 0 || list.indexOf(labelOf(card)) !== -1;
+      });
+      // 「すべて」は新しい順（元の並び）、カテゴリ選択時は古い順（昇順）で表示
+      var ordered = (list.length === 0) ? matching : matching.slice().reverse();
+      cards.forEach(function (card) { card.style.display = 'none'; });
+      ordered.forEach(function (card) {
+        card.style.display = '';
+        listEl.appendChild(card);
       });
     }
 
