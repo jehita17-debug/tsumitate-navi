@@ -362,6 +362,8 @@ a:hover {
   border-radius: 50px;
   font-size: 14px;
   font-weight: 600;
+  font-family: inherit;
+  cursor: pointer;
   transition: all 0.2s;
 }
 

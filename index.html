@@ -85,12 +85,13 @@
     <h2 class="section-title">カテゴリから探す</h2>
     <p class="section-sub">気になるテーマをクリック</p>
     <div class="category-chips">
-      <a href="#articles" class="chip">NISA</a>
-      <a href="#articles" class="chip">つみたて投資</a>
-      <a href="#articles" class="chip">米国株</a>
-      <a href="#articles" class="chip">日本株</a>
-      <a href="#articles" class="chip">ETF・投資信託</a>
-      <a href="#articles" class="chip">資産形成の基礎</a>
+      <button type="button" class="chip active" data-cats="">すべて</button>
+      <button type="button" class="chip" data-cats="NISA">NISA</button>
+      <button type="button" class="chip" data-cats="つみたて投資">つみたて投資</button>
+      <button type="button" class="chip" data-cats="米国株">米国株</button>
+      <button type="button" class="chip" data-cats="日本株">日本株</button>
+      <button type="button" class="chip" data-cats="基礎解説,資産形成">基礎・資産形成</button>
+      <button type="button" class="chip" data-cats="コモディティ,FX・為替,仮想通貨">コモディティ・FX・仮想通貨</button>
     </div>
   </section>
 
@@ -641,5 +642,40 @@
 </footer>
 
 <script>
+  // モバイルメニューの開閉
   document.querySelector('.menu-toggle')?.addEventListener('click', () => {
-    
+    document.getElementById('nav')?.classList.toggle('open');
+  });
+
+  // フッターの年号
+  var yEl = document.getElementById('year');
+  if (yEl) { yEl.textContent = new Date().getFullYear(); }
+
+  // カテゴリチップによる記事の絞り込み
+  (function () {
+    var chips = document.querySelectorAll('.category-chips .chip');
+    var cards = document.querySelectorAll('#article-list .article-card');
+
+    function labelOf(card) {
+      var el = card.querySelector('.article-thumb-label');
+      return el ? el.textContent.trim() : '';
+    }
+
+    function applyFilter(cats) {
+      var list = cats ? cats.split(',') : [];
+      cards.forEach(function (card) {
+        var show = list.length === 0 || list.indexOf(labelOf(card)) !== -1;
+        card.style.display = show ? '' : 'none';
+      });
+    }
+
+    chips.forEach(function (chip) {
+      chip.addEventListener('click', function () {
+        chips.forEach(function (c) { c.classList.remove('active'); });
+        chip.classList.add('active');
+        applyFilter(chip.getAttribute('data-cats') || '');
+        document.getElementById('articles')?.scrollIntoView({ behavior: 'smooth' });
+      });
+    });
+  })();
+</script>
