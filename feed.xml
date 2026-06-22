@@ -6,7 +6,14 @@
     <atom:link href="https://tsumitate-navi.net/feed.xml" rel="self" type="application/rss+xml" />
     <description>投資初心者のための情報サイト。NISA・つみたて投資・米国株・日本株を毎朝7時に配信。</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 22 Jun 2026 08:17:42 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 23 Jun 2026 08:22:54 +0900</lastBuildDate>
+    <item>
+      <title>ビットコインとは？値動きの理由と地政学リスクとの関係をやさしく解説</title>
+      <link>https://tsumitate-navi.net/articles/2026-06-23-ビットコインとは値動きの理由と地政学リスクとの関係.html</link>
+      <description>ビットコインはなぜ急騰・急落するのか？その仕組みと価格が動く理由、そして中東情勢など地政学リスクとの関係を、投資初心者向けにわかりやすく解説します。</description>
+      <pubDate>Tue, 23 Jun 2026 07:00:00 +0900</pubDate>
+      <guid>https://tsumitate-navi.net/articles/2026-06-23-ビットコインとは値動きの理由と地政学リスクとの関係.html</guid>
+    </item>
     <item>
       <title>毎月いくら積み立てればいい？年代別の目安をわかりやすく解説</title>
       <link>https://tsumitate-navi.net/articles/2026-06-22-毎月いくら積み立てればいい年代別の目安.html</link>
@@ -139,13 +146,6 @@
       <description>老後資金づくりに使えるiDeCoと、幅広い投資に対応するNISA。どちらも税制メリットが大きい制度ですが、「どっちを先に使うべき？」と迷う人は多いはず。この記事では両者の違いをわかりやすく整理し、あなたに合った優先順位の考え方を解説します。</description>
       <pubDate>Sat, 06 Jun 2026 07:00:00 +0900</pubDate>
       <guid>https://tsumitate-navi.net/articles/2026-06-06-iDeCoとNISAどっちを優先すべき.html</guid>
-    </item>
-    <item>
-      <title>複利とは？「雪だるま式」にお金が増える仕組みを初心者向けに解説</title>
-      <link>https://tsumitate-navi.net/articles/2026-06-06-compound-interest.html</link>
-      <description>投資の世界でよく聞く「複利」とは何か。利息が利息を生む雪だるま式の仕組みを、単利との違いや数値シミュレーションを交えて初心者向けにやさしく解説します。長期つみたて投資との相性も整理。</description>
-      <pubDate>Sat, 06 Jun 2026 07:00:00 +0900</pubDate>
-      <guid>https://tsumitate-navi.net/articles/2026-06-06-compound-interest.html</guid>
     </item>
   </channel>
 </rss>
