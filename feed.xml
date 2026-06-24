@@ -6,7 +6,14 @@
     <atom:link href="https://tsumitate-navi.net/feed.xml" rel="self" type="application/rss+xml" />
     <description>投資初心者のための情報サイト。NISA・つみたて投資・米国株・日本株を毎朝7時に配信。</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 24 Jun 2026 08:11:22 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 25 Jun 2026 08:06:33 +0900</lastBuildDate>
+    <item>
+      <title>原油価格はなぜ動く？中東情勢と私たちの生活への影響をわかりやすく解説</title>
+      <link>https://tsumitate-navi.net/articles/2026-06-25-原油価格はなぜ動く中東情勢と私たちの生活への影響.html</link>
+      <description>ガソリン代や電気代が上がるたびに「原油が高いから」と聞きますよね。でも、なぜ原油価格は動くのでしょうか？中東情勢との関係や、私たちの家計・投資への影響をやさしく解説します。</description>
+      <pubDate>Thu, 25 Jun 2026 07:00:00 +0900</pubDate>
+      <guid>https://tsumitate-navi.net/articles/2026-06-25-原油価格はなぜ動く中東情勢と私たちの生活への影響.html</guid>
+    </item>
     <item>
       <title>ETFとは？投資信託との違いをやさしく解説【初心者向け】</title>
       <link>https://tsumitate-navi.net/articles/2026-06-24-ETFとは投資信託との違いをやさしく解説.html</link>
@@ -139,13 +146,6 @@
       <description>ビットコインやイーサリアムなど「仮想通貨」という言葉は知っているけど、仕組みがよくわからない…そんな方のために、基礎から価格変動リスクまでわかりやすく解説します。</description>
       <pubDate>Sun, 07 Jun 2026 07:00:00 +0900</pubDate>
       <guid>https://tsumitate-navi.net/articles/2026-06-07-仮想通貨暗号資産とは仕組みとリスクを初心者向けに解説.html</guid>
-    </item>
-    <item>
-      <title>インデックス投資とアクティブ投資の違い｜初心者はどちらを選ぶ？</title>
-      <link>https://tsumitate-navi.net/articles/2026-06-07-index-vs-active.html</link>
-      <description>投資信託選びで必ず出会う「インデックス型」と「アクティブ型」。市場平均を目指すか上回ることを目指すか、その違いとコスト・成績の傾向を、数値シミュレーションを交えて初心者向けにやさしく解説します。</description>
-      <pubDate>Sun, 07 Jun 2026 07:00:00 +0900</pubDate>
-      <guid>https://tsumitate-navi.net/articles/2026-06-07-index-vs-active.html</guid>
     </item>
   </channel>
 </rss>
