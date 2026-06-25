@@ -6,7 +6,14 @@
     <atom:link href="https://tsumitate-navi.net/feed.xml" rel="self" type="application/rss+xml" />
     <description>投資初心者のための情報サイト。NISA・つみたて投資・米国株・日本株を毎朝7時に配信。</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 25 Jun 2026 08:06:33 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 26 Jun 2026 08:21:29 +0900</lastBuildDate>
+    <item>
+      <title>投資初心者がやってはいけない3つの行動｜失敗を防ぐ基本ルールを解説</title>
+      <link>https://tsumitate-navi.net/articles/2026-06-26-投資初心者がやってはいけない3つの行動.html</link>
+      <description>「投資を始めたけど、何に気をつければいい？」と悩む方へ。初心者が陥りがちな失敗パターンを3つに絞り、なぜ危険なのか・どう対処すればいいかをわかりやすく解説します。</description>
+      <pubDate>Fri, 26 Jun 2026 07:00:00 +0900</pubDate>
+      <guid>https://tsumitate-navi.net/articles/2026-06-26-投資初心者がやってはいけない3つの行動.html</guid>
+    </item>
     <item>
       <title>原油価格はなぜ動く？中東情勢と私たちの生活への影響をわかりやすく解説</title>
       <link>https://tsumitate-navi.net/articles/2026-06-25-原油価格はなぜ動く中東情勢と私たちの生活への影響.html</link>
@@ -139,13 +146,6 @@
       <description>投資信託は、たくさんの人からお金を集めてプロが運用する金融商品。少額・分散で始められる仕組みと、手数料などのデメリット、初心者の選び方を、数値シミュレーションを交えてやさしく解説します。</description>
       <pubDate>Mon, 08 Jun 2026 07:00:00 +0900</pubDate>
       <guid>https://tsumitate-navi.net/articles/2026-06-08-what-is-mutual-fund.html</guid>
-    </item>
-    <item>
-      <title>仮想通貨（暗号資産）とは？仕組みとリスクを初心者向けにやさしく解説</title>
-      <link>https://tsumitate-navi.net/articles/2026-06-07-仮想通貨暗号資産とは仕組みとリスクを初心者向けに解説.html</link>
-      <description>ビットコインやイーサリアムなど「仮想通貨」という言葉は知っているけど、仕組みがよくわからない…そんな方のために、基礎から価格変動リスクまでわかりやすく解説します。</description>
-      <pubDate>Sun, 07 Jun 2026 07:00:00 +0900</pubDate>
-      <guid>https://tsumitate-navi.net/articles/2026-06-07-仮想通貨暗号資産とは仕組みとリスクを初心者向けに解説.html</guid>
     </item>
   </channel>
 </rss>
