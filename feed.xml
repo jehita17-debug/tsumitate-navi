@@ -6,7 +6,14 @@
     <atom:link href="https://tsumitate-navi.net/feed.xml" rel="self" type="application/rss+xml" />
     <description>投資初心者のための情報サイト。NISA・つみたて投資・米国株・日本株を毎朝7時に配信。</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 01 Jul 2026 08:16:30 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 02 Jul 2026 08:19:19 +0900</lastBuildDate>
+    <item>
+      <title>債券とは？仕組みと株式との違いをわかりやすく解説【投資初心者向け】</title>
+      <link>https://tsumitate-navi.net/articles/2026-07-02-債券とは仕組みと株式との違いをわかりやすく.html</link>
+      <description>「債券ってよく聞くけど、株式と何が違うの？」そんな疑問を持つ初心者向けに、債券の基本的な仕組みから株式との比較、メリット・デメリットまでわかりやすく解説します。</description>
+      <pubDate>Thu, 02 Jul 2026 07:00:00 +0900</pubDate>
+      <guid>https://tsumitate-navi.net/articles/2026-07-02-債券とは仕組みと株式との違いをわかりやすく.html</guid>
+    </item>
     <item>
       <title>為替レートはなぜ動く？円安・円高の仕組みと中東情勢の影響をわかりやすく解説</title>
       <link>https://tsumitate-navi.net/articles/2026-07-01-為替レートはなぜ動く円安円高の仕組みと中東情勢の影響.html</link>
@@ -139,13 +146,6 @@
       <description>「投資信託って何？」という疑問をお持ちの方へ。少額から始められる投資信託の仕組みや、メリット・デメリットをやさしく解説します。NISAとの組み合わせ方も紹介！</description>
       <pubDate>Sun, 14 Jun 2026 07:00:00 +0900</pubDate>
       <guid>https://tsumitate-navi.net/articles/2026-06-14-投資信託とは初心者にもわかる仕組みとメリットデメリット.html</guid>
-    </item>
-    <item>
-      <title>為替レートはなぜ動く？円安・円高の仕組みと中東情勢の影響をやさしく解説</title>
-      <link>https://tsumitate-navi.net/articles/2026-06-14-why-exchange-rate-moves.html</link>
-      <description>為替レートは金利差・景気・地政学リスクなどで日々動き、円安・円高は私たちの暮らしや投資にも影響します。為替が動く仕組み、円安と円高の違い、中東情勢との関係、初心者の向き合い方を図表と数値例でやさしく解説します。</description>
-      <pubDate>Sun, 14 Jun 2026 07:00:00 +0900</pubDate>
-      <guid>https://tsumitate-navi.net/articles/2026-06-14-why-exchange-rate-moves.html</guid>
     </item>
   </channel>
 </rss>
