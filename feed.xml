@@ -6,7 +6,14 @@
     <atom:link href="https://tsumitate-navi.net/feed.xml" rel="self" type="application/rss+xml" />
     <description>投資初心者のための情報サイト。NISA・つみたて投資・米国株・日本株を毎朝7時に配信。</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 02 Jul 2026 08:19:19 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 03 Jul 2026 08:11:13 +0900</lastBuildDate>
+    <item>
+      <title>金（ゴールド）とは？なぜ「安全資産」と呼ばれるのか【初心者向けやさしく解説】</title>
+      <link>https://tsumitate-navi.net/articles/2026-07-03-金ゴールドとはなぜ安全資産と呼ばれるのか.html</link>
+      <description>株価が下がると金（ゴールド）が上がりやすい、と聞いたことはありませんか？金が「安全資産」と呼ばれる理由や、価格が動く仕組みをやさしく解説します。</description>
+      <pubDate>Fri, 03 Jul 2026 07:00:00 +0900</pubDate>
+      <guid>https://tsumitate-navi.net/articles/2026-07-03-金ゴールドとはなぜ安全資産と呼ばれるのか.html</guid>
+    </item>
     <item>
       <title>債券とは？仕組みと株式との違いをわかりやすく解説【投資初心者向け】</title>
       <link>https://tsumitate-navi.net/articles/2026-07-02-債券とは仕組みと株式との違いをわかりやすく.html</link>
@@ -139,13 +146,6 @@
       <description>FXは「外国為替取引」のこと。少ない資金で大きな取引ができる半面、損失も拡大しやすいリスクがあります。初心者が知っておきたい仕組みとリスクを丁寧に解説します。</description>
       <pubDate>Mon, 15 Jun 2026 07:00:00 +0900</pubDate>
       <guid>https://tsumitate-navi.net/articles/2026-06-15-FXとは仕組みレバレッジリスクを初心者向けに解説.html</guid>
-    </item>
-    <item>
-      <title>投資信託とは？初心者にもわかる仕組みとメリット・デメリット</title>
-      <link>https://tsumitate-navi.net/articles/2026-06-14-投資信託とは初心者にもわかる仕組みとメリットデメリット.html</link>
-      <description>「投資信託って何？」という疑問をお持ちの方へ。少額から始められる投資信託の仕組みや、メリット・デメリットをやさしく解説します。NISAとの組み合わせ方も紹介！</description>
-      <pubDate>Sun, 14 Jun 2026 07:00:00 +0900</pubDate>
-      <guid>https://tsumitate-navi.net/articles/2026-06-14-投資信託とは初心者にもわかる仕組みとメリットデメリット.html</guid>
     </item>
   </channel>
 </rss>
