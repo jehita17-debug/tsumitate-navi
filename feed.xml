@@ -6,7 +6,14 @@
     <atom:link href="https://tsumitate-navi.net/feed.xml" rel="self" type="application/rss+xml" />
     <description>投資初心者のための情報サイト。NISA・つみたて投資・米国株・日本株を毎朝7時に配信。</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 03 Jul 2026 08:11:13 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 04 Jul 2026 08:07:10 +0900</lastBuildDate>
+    <item>
+      <title>ドルコスト平均法とは？仕組みとメリット・デメリットをわかりやすく解説</title>
+      <link>https://tsumitate-navi.net/articles/2026-07-04-ドルコスト平均法とは仕組みとメリットデメリット.html</link>
+      <description>「毎月一定額を積み立てるだけで、価格変動リスクを抑えられる」と聞いたことはありませんか？その仕組みが「ドルコスト平均法」です。初心者でも実践しやすい投資手法の基本をやさしく解説します。</description>
+      <pubDate>Sat, 04 Jul 2026 07:00:00 +0900</pubDate>
+      <guid>https://tsumitate-navi.net/articles/2026-07-04-ドルコスト平均法とは仕組みとメリットデメリット.html</guid>
+    </item>
     <item>
       <title>金（ゴールド）とは？なぜ「安全資産」と呼ばれるのか【初心者向けやさしく解説】</title>
       <link>https://tsumitate-navi.net/articles/2026-07-03-金ゴールドとはなぜ安全資産と呼ばれるのか.html</link>
@@ -139,13 +146,6 @@
       <description>FX（外国為替証拠金取引）は通貨を売買して為替差益をねらう取引です。仕組み、レバレッジ、スワップポイント、初心者が知るべきリスクを図表と数値例でやさしく解説。つみたて投資との違いも整理します。</description>
       <pubDate>Tue, 16 Jun 2026 07:00:00 +0900</pubDate>
       <guid>https://tsumitate-navi.net/articles/2026-06-16-what-is-fx.html</guid>
-    </item>
-    <item>
-      <title>FXとは？仕組み・レバレッジ・リスクを初心者向けにやさしく解説</title>
-      <link>https://tsumitate-navi.net/articles/2026-06-15-FXとは仕組みレバレッジリスクを初心者向けに解説.html</link>
-      <description>FXは「外国為替取引」のこと。少ない資金で大きな取引ができる半面、損失も拡大しやすいリスクがあります。初心者が知っておきたい仕組みとリスクを丁寧に解説します。</description>
-      <pubDate>Mon, 15 Jun 2026 07:00:00 +0900</pubDate>
-      <guid>https://tsumitate-navi.net/articles/2026-06-15-FXとは仕組みレバレッジリスクを初心者向けに解説.html</guid>
     </item>
   </channel>
 </rss>
