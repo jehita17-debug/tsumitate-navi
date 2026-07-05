@@ -6,7 +6,14 @@
     <atom:link href="https://tsumitate-navi.net/feed.xml" rel="self" type="application/rss+xml" />
     <description>投資初心者のための情報サイト。NISA・つみたて投資・米国株・日本株を毎朝7時に配信。</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 04 Jul 2026 08:07:10 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 06 Jul 2026 08:03:52 +0900</lastBuildDate>
+    <item>
+      <title>つみたて投資枠と成長投資枠、初心者はどう使い分ける？新NISAの2本柱をやさしく解説</title>
+      <link>https://tsumitate-navi.net/articles/2026-07-06-つみたて投資枠と成長投資枠初心者はどう使い分ける.html</link>
+      <description>2024年から始まった新NISAには「つみたて投資枠」と「成長投資枠」の2つがあります。それぞれの違いと、初心者におすすめの使い方をわかりやすく解説します。</description>
+      <pubDate>Mon, 06 Jul 2026 07:00:00 +0900</pubDate>
+      <guid>https://tsumitate-navi.net/articles/2026-07-06-つみたて投資枠と成長投資枠初心者はどう使い分ける.html</guid>
+    </item>
     <item>
       <title>ドルコスト平均法とは？仕組みとメリット・デメリットをわかりやすく解説</title>
       <link>https://tsumitate-navi.net/articles/2026-07-04-ドルコスト平均法とは仕組みとメリットデメリット.html</link>
@@ -139,13 +146,6 @@
       <description>「毎月一定額を積み立てるだけで、なぜリスクが下がるの？」その答えが「ドルコスト平均法」にあります。仕組みから実例・注意点まで初心者にもわかりやすく解説します。</description>
       <pubDate>Tue, 16 Jun 2026 07:00:00 +0900</pubDate>
       <guid>https://tsumitate-navi.net/articles/2026-06-16-ドルコスト平均法とは仕組みとメリットデメリット.html</guid>
-    </item>
-    <item>
-      <title>FXとは？仕組み・レバレッジ・リスクを初心者向けにやさしく解説</title>
-      <link>https://tsumitate-navi.net/articles/2026-06-16-what-is-fx.html</link>
-      <description>FX（外国為替証拠金取引）は通貨を売買して為替差益をねらう取引です。仕組み、レバレッジ、スワップポイント、初心者が知るべきリスクを図表と数値例でやさしく解説。つみたて投資との違いも整理します。</description>
-      <pubDate>Tue, 16 Jun 2026 07:00:00 +0900</pubDate>
-      <guid>https://tsumitate-navi.net/articles/2026-06-16-what-is-fx.html</guid>
     </item>
   </channel>
 </rss>
