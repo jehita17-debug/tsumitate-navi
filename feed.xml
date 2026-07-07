@@ -6,7 +6,14 @@
     <atom:link href="https://tsumitate-navi.net/feed.xml" rel="self" type="application/rss+xml" />
     <description>投資初心者のための情報サイト。NISA・つみたて投資・米国株・日本株を毎朝7時に配信。</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 07 Jul 2026 08:11:21 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 08 Jul 2026 08:05:14 +0900</lastBuildDate>
+    <item>
+      <title>原油価格はなぜ動く？中東情勢と私たちの生活への影響をわかりやすく解説</title>
+      <link>https://tsumitate-navi.net/articles/2026-07-08-原油価格はなぜ動く中東情勢と私たちの生活への影響.html</link>
+      <description>ガソリン代や電気代が上がった理由、気になったことはありませんか？その背景には「原油価格」があります。価格が動く仕組みと、投資への影響をやさしく解説します。</description>
+      <pubDate>Wed, 08 Jul 2026 07:00:00 +0900</pubDate>
+      <guid>https://tsumitate-navi.net/articles/2026-07-08-原油価格はなぜ動く中東情勢と私たちの生活への影響.html</guid>
+    </item>
     <item>
       <title>iDeCoとNISA、どっちを優先すべき？初心者向けに違いと選び方をわかりやすく解説</title>
       <link>https://tsumitate-navi.net/articles/2026-07-07-iDeCoとNISAどっちを優先すべき.html</link>
@@ -139,13 +146,6 @@
       <description>「インデックス投資」という言葉を聞いたことはあるけれど、何に投資しているのかよくわからない…そんな方へ。仕組みから始め方まで、初心者向けにやさしく解説します。</description>
       <pubDate>Wed, 17 Jun 2026 07:00:00 +0900</pubDate>
       <guid>https://tsumitate-navi.net/articles/2026-06-17-インデックス投資とは初心者がまず知るべき基本.html</guid>
-    </item>
-    <item>
-      <title>株とは？株式投資の仕組みを初心者にもわかるようにやさしく解説</title>
-      <link>https://tsumitate-navi.net/articles/2026-06-17-what-is-stock.html</link>
-      <description>株（株式）とは会社の持ち分を表す証券です。株主になると得られる権利、値上がり益と配当という2つの利益、株価が動く理由、そして初心者がつみたて投資とどう向き合うべきかを、図表と数値例でやさしく解説します。</description>
-      <pubDate>Wed, 17 Jun 2026 07:00:00 +0900</pubDate>
-      <guid>https://tsumitate-navi.net/articles/2026-06-17-what-is-stock.html</guid>
     </item>
   </channel>
 </rss>
