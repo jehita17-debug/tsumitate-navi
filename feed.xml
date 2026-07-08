@@ -6,7 +6,14 @@
     <atom:link href="https://tsumitate-navi.net/feed.xml" rel="self" type="application/rss+xml" />
     <description>投資初心者のための情報サイト。NISA・つみたて投資・米国株・日本株を毎朝7時に配信。</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 08 Jul 2026 08:05:14 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 09 Jul 2026 08:11:22 +0900</lastBuildDate>
+    <item>
+      <title>投資を始める前に絶対やるべき家計の見直し｜お金の流れを把握して「投資できる体質」をつくろう</title>
+      <link>https://tsumitate-navi.net/articles/2026-07-09-投資を始める前に絶対やるべき家計の見直し.html</link>
+      <description>「投資を始めたい」と思ったとき、最初にやるべきことは証券口座の開設ではありません。まずは家計の現状を把握し、無理なく投資に回せるお金を確保することが、長期・積立投資を続けるための土台になります。</description>
+      <pubDate>Thu, 09 Jul 2026 07:00:00 +0900</pubDate>
+      <guid>https://tsumitate-navi.net/articles/2026-07-09-投資を始める前に絶対やるべき家計の見直し.html</guid>
+    </item>
     <item>
       <title>原油価格はなぜ動く？中東情勢と私たちの生活への影響をわかりやすく解説</title>
       <link>https://tsumitate-navi.net/articles/2026-07-08-原油価格はなぜ動く中東情勢と私たちの生活への影響.html</link>
@@ -139,13 +146,6 @@
       <description>投資の世界では金（ゴールド）が注目されがちですが、銀やプラチナも個性豊かな資産です。それぞれの特徴と価格変動のしくみをわかりやすく解説します。</description>
       <pubDate>Thu, 18 Jun 2026 07:00:00 +0900</pubDate>
       <guid>https://tsumitate-navi.net/articles/2026-06-18-銀プラチナとは金との違いと価格が動く要因.html</guid>
-    </item>
-    <item>
-      <title>インデックス投資とは？初心者がまず知るべき基本をわかりやすく解説</title>
-      <link>https://tsumitate-navi.net/articles/2026-06-17-インデックス投資とは初心者がまず知るべき基本.html</link>
-      <description>「インデックス投資」という言葉を聞いたことはあるけれど、何に投資しているのかよくわからない…そんな方へ。仕組みから始め方まで、初心者向けにやさしく解説します。</description>
-      <pubDate>Wed, 17 Jun 2026 07:00:00 +0900</pubDate>
-      <guid>https://tsumitate-navi.net/articles/2026-06-17-インデックス投資とは初心者がまず知るべき基本.html</guid>
     </item>
   </channel>
 </rss>
