@@ -6,7 +6,14 @@
     <atom:link href="https://tsumitate-navi.net/feed.xml" rel="self" type="application/rss+xml" />
     <description>投資初心者のための情報サイト。NISA・つみたて投資・米国株・日本株を毎朝7時に配信。</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 09 Jul 2026 08:11:22 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 10 Jul 2026 08:14:45 +0900</lastBuildDate>
+    <item>
+      <title>地政学リスクとは？投資初心者が知っておきたい世界経済の基本</title>
+      <link>https://tsumitate-navi.net/articles/2026-07-10-地政学リスクとは投資初心者が知っておきたい世界経済の基本.html</link>
+      <description>「地政学リスク」という言葉をニュースでよく聞くけど、投資にどう関係するの？この記事では仕組みをやさしく解説します。</description>
+      <pubDate>Fri, 10 Jul 2026 07:00:00 +0900</pubDate>
+      <guid>https://tsumitate-navi.net/articles/2026-07-10-地政学リスクとは投資初心者が知っておきたい世界経済の基本.html</guid>
+    </item>
     <item>
       <title>投資を始める前に絶対やるべき家計の見直し｜お金の流れを把握して「投資できる体質」をつくろう</title>
       <link>https://tsumitate-navi.net/articles/2026-07-09-投資を始める前に絶対やるべき家計の見直し.html</link>
@@ -139,13 +146,6 @@
       <description>配当収入を得ながら米国株に投資できる高配当ETF。VYM・HDV・SPYDの3つは何が違うのか、初心者でもわかるように特徴・配当利回り・リスクを比較します。</description>
       <pubDate>Fri, 19 Jun 2026 07:00:00 +0900</pubDate>
       <guid>https://tsumitate-navi.net/articles/2026-06-19-米国高配当株ETFの選び方VYMHDVSPYDの違い.html</guid>
-    </item>
-    <item>
-      <title>銀・プラチナとは？金との違いと価格が動く要因をやさしく解説</title>
-      <link>https://tsumitate-navi.net/articles/2026-06-18-銀プラチナとは金との違いと価格が動く要因.html</link>
-      <description>投資の世界では金（ゴールド）が注目されがちですが、銀やプラチナも個性豊かな資産です。それぞれの特徴と価格変動のしくみをわかりやすく解説します。</description>
-      <pubDate>Thu, 18 Jun 2026 07:00:00 +0900</pubDate>
-      <guid>https://tsumitate-navi.net/articles/2026-06-18-銀プラチナとは金との違いと価格が動く要因.html</guid>
     </item>
   </channel>
 </rss>
