@@ -6,7 +6,14 @@
     <atom:link href="https://tsumitate-navi.net/feed.xml" rel="self" type="application/rss+xml" />
     <description>投資初心者のための情報サイト。NISA・つみたて投資・米国株・日本株を毎朝7時に配信。</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 10 Jul 2026 08:14:45 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 11 Jul 2026 08:01:28 +0900</lastBuildDate>
+    <item>
+      <title>株とは？株式投資の仕組みを初心者向けにわかりやすく解説</title>
+      <link>https://tsumitate-navi.net/articles/2026-07-11-株とは株式投資の仕組みを初心者向けに解説.html</link>
+      <description>「株って何となく怖い」と感じていませんか？この記事では株の基本的な仕組みから、どうやって利益を得るのか、リスクとの向き合い方まで、初心者にもわかりやすく丁寧に解説します。</description>
+      <pubDate>Sat, 11 Jul 2026 07:00:00 +0900</pubDate>
+      <guid>https://tsumitate-navi.net/articles/2026-07-11-株とは株式投資の仕組みを初心者向けに解説.html</guid>
+    </item>
     <item>
       <title>地政学リスクとは？投資初心者が知っておきたい世界経済の基本</title>
       <link>https://tsumitate-navi.net/articles/2026-07-10-地政学リスクとは投資初心者が知っておきたい世界経済の基本.html</link>
@@ -139,13 +146,6 @@
       <description>中東で緊張が高まるたびに、原油や金の価格が動き、株式市場が揺れます。「なぜそうなるのか」という仕組みを、投資初心者向けにやさしく解説します。</description>
       <pubDate>Sun, 21 Jun 2026 07:00:00 +0900</pubDate>
       <guid>https://tsumitate-navi.net/articles/2026-06-21-中東情勢と投資への影響をやさしく解説原油金株はどう動く.html</guid>
-    </item>
-    <item>
-      <title>米国高配当株ETFの選び方｜VYM・HDV・SPYDの違いをやさしく解説</title>
-      <link>https://tsumitate-navi.net/articles/2026-06-19-米国高配当株ETFの選び方VYMHDVSPYDの違い.html</link>
-      <description>配当収入を得ながら米国株に投資できる高配当ETF。VYM・HDV・SPYDの3つは何が違うのか、初心者でもわかるように特徴・配当利回り・リスクを比較します。</description>
-      <pubDate>Fri, 19 Jun 2026 07:00:00 +0900</pubDate>
-      <guid>https://tsumitate-navi.net/articles/2026-06-19-米国高配当株ETFの選び方VYMHDVSPYDの違い.html</guid>
     </item>
   </channel>
 </rss>
