@@ -6,7 +6,14 @@
     <atom:link href="https://tsumitate-navi.net/feed.xml" rel="self" type="application/rss+xml" />
     <description>投資初心者のための情報サイト。NISA・つみたて投資・米国株・日本株を毎朝7時に配信。</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 11 Jul 2026 08:01:28 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 12 Jul 2026 07:52:26 +0900</lastBuildDate>
+    <item>
+      <title>日本の個別株を買うときにチェックすべき5つの指標【初心者向けやさしく解説】</title>
+      <link>https://tsumitate-navi.net/articles/2026-07-12-日本の個別株を買うときにチェックすべき5つの指標.html</link>
+      <description>「この株は割安なの？」「業績は安定している？」個別株投資を始める前に知っておきたい5つの基本指標を、具体例・数値シミュレーション付きでやさしく解説します。</description>
+      <pubDate>Sun, 12 Jul 2026 07:00:00 +0900</pubDate>
+      <guid>https://tsumitate-navi.net/articles/2026-07-12-日本の個別株を買うときにチェックすべき5つの指標.html</guid>
+    </item>
     <item>
       <title>株とは？株式投資の仕組みを初心者向けにわかりやすく解説</title>
       <link>https://tsumitate-navi.net/articles/2026-07-11-株とは株式投資の仕組みを初心者向けに解説.html</link>
@@ -139,13 +146,6 @@
       <description>「積み立て投資を始めたいけど、毎月いくら投資すればいいの？」そんな疑問にお答えします。20代〜50代の年代別目安と、無理なく続けるコツを具体的な数値シミュレーションで解説します。</description>
       <pubDate>Mon, 22 Jun 2026 07:00:00 +0900</pubDate>
       <guid>https://tsumitate-navi.net/articles/2026-06-22-毎月いくら積み立てればいい年代別の目安.html</guid>
-    </item>
-    <item>
-      <title>中東情勢と投資への影響をやさしく解説｜原油・金・株はどう動く？</title>
-      <link>https://tsumitate-navi.net/articles/2026-06-21-中東情勢と投資への影響をやさしく解説原油金株はどう動く.html</link>
-      <description>中東で緊張が高まるたびに、原油や金の価格が動き、株式市場が揺れます。「なぜそうなるのか」という仕組みを、投資初心者向けにやさしく解説します。</description>
-      <pubDate>Sun, 21 Jun 2026 07:00:00 +0900</pubDate>
-      <guid>https://tsumitate-navi.net/articles/2026-06-21-中東情勢と投資への影響をやさしく解説原油金株はどう動く.html</guid>
     </item>
   </channel>
 </rss>
