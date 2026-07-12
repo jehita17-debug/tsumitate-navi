@@ -6,7 +6,14 @@
     <atom:link href="https://tsumitate-navi.net/feed.xml" rel="self" type="application/rss+xml" />
     <description>投資初心者のための情報サイト。NISA・つみたて投資・米国株・日本株を毎朝7時に配信。</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 12 Jul 2026 07:52:26 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 13 Jul 2026 07:53:12 +0900</lastBuildDate>
+    <item>
+      <title>投資信託とは？初心者にもわかる仕組みとメリット・デメリット</title>
+      <link>https://tsumitate-navi.net/articles/2026-07-13-投資信託とは初心者にもわかる仕組みとメリットデメリット.html</link>
+      <description>「投資信託」という言葉は聞いたことがあるけど、どんな仕組みなの？という方へ。少額から始められる理由や、プロに運用を任せる仕組みを、具体例つきでやさしく解説します。</description>
+      <pubDate>Mon, 13 Jul 2026 07:00:00 +0900</pubDate>
+      <guid>https://tsumitate-navi.net/articles/2026-07-13-投資信託とは初心者にもわかる仕組みとメリットデメリット.html</guid>
+    </item>
     <item>
       <title>日本の個別株を買うときにチェックすべき5つの指標【初心者向けやさしく解説】</title>
       <link>https://tsumitate-navi.net/articles/2026-07-12-日本の個別株を買うときにチェックすべき5つの指標.html</link>
@@ -139,13 +146,6 @@
       <description>ビットコインはなぜ急騰・急落するのか？その仕組みと価格が動く理由、そして中東情勢など地政学リスクとの関係を、投資初心者向けにわかりやすく解説します。</description>
       <pubDate>Tue, 23 Jun 2026 07:00:00 +0900</pubDate>
       <guid>https://tsumitate-navi.net/articles/2026-06-23-ビットコインとは値動きの理由と地政学リスクとの関係.html</guid>
-    </item>
-    <item>
-      <title>毎月いくら積み立てればいい？年代別の目安をわかりやすく解説</title>
-      <link>https://tsumitate-navi.net/articles/2026-06-22-毎月いくら積み立てればいい年代別の目安.html</link>
-      <description>「積み立て投資を始めたいけど、毎月いくら投資すればいいの？」そんな疑問にお答えします。20代〜50代の年代別目安と、無理なく続けるコツを具体的な数値シミュレーションで解説します。</description>
-      <pubDate>Mon, 22 Jun 2026 07:00:00 +0900</pubDate>
-      <guid>https://tsumitate-navi.net/articles/2026-06-22-毎月いくら積み立てればいい年代別の目安.html</guid>
     </item>
   </channel>
 </rss>
