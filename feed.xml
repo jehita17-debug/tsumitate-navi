@@ -6,7 +6,14 @@
     <atom:link href="https://tsumitate-navi.net/feed.xml" rel="self" type="application/rss+xml" />
     <description>投資初心者のための情報サイト。NISA・つみたて投資・米国株・日本株を毎朝7時に配信。</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 13 Jul 2026 07:53:12 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 14 Jul 2026 07:58:09 +0900</lastBuildDate>
+    <item>
+      <title>緊急資金はいくら必要？投資との優先順位を初心者向けに解説</title>
+      <link>https://tsumitate-navi.net/articles/2026-07-14-緊急資金はいくら必要投資との優先順位.html</link>
+      <description>「投資を始めたいけど、先に貯金すべき？」と迷っていませんか？緊急資金と投資は「どちらか」ではなく「順番」が大切です。失敗しない資産形成の土台を一緒に確認しましょう。</description>
+      <pubDate>Tue, 14 Jul 2026 07:00:00 +0900</pubDate>
+      <guid>https://tsumitate-navi.net/articles/2026-07-14-緊急資金はいくら必要投資との優先順位.html</guid>
+    </item>
     <item>
       <title>投資信託とは？初心者にもわかる仕組みとメリット・デメリット</title>
       <link>https://tsumitate-navi.net/articles/2026-07-13-投資信託とは初心者にもわかる仕組みとメリットデメリット.html</link>
@@ -139,13 +146,6 @@
       <description>「ETFって投資信託と何が違うの？」そんな疑問を持つ初心者の方へ。ETFの仕組みから投資信託との違い、メリット・デメリットまでをわかりやすく解説します。</description>
       <pubDate>Wed, 24 Jun 2026 07:00:00 +0900</pubDate>
       <guid>https://tsumitate-navi.net/articles/2026-06-24-ETFとは投資信託との違いをやさしく解説.html</guid>
-    </item>
-    <item>
-      <title>ビットコインとは？値動きの理由と地政学リスクとの関係をやさしく解説</title>
-      <link>https://tsumitate-navi.net/articles/2026-06-23-ビットコインとは値動きの理由と地政学リスクとの関係.html</link>
-      <description>ビットコインはなぜ急騰・急落するのか？その仕組みと価格が動く理由、そして中東情勢など地政学リスクとの関係を、投資初心者向けにわかりやすく解説します。</description>
-      <pubDate>Tue, 23 Jun 2026 07:00:00 +0900</pubDate>
-      <guid>https://tsumitate-navi.net/articles/2026-06-23-ビットコインとは値動きの理由と地政学リスクとの関係.html</guid>
     </item>
   </channel>
 </rss>
