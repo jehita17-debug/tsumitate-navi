@@ -6,7 +6,14 @@
     <atom:link href="https://tsumitate-navi.net/feed.xml" rel="self" type="application/rss+xml" />
     <description>投資初心者のための情報サイト。NISA・つみたて投資・米国株・日本株を毎朝7時に配信。</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 14 Jul 2026 07:58:09 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 15 Jul 2026 07:58:47 +0900</lastBuildDate>
+    <item>
+      <title>原油価格はなぜ動く？中東情勢と私たちの生活への影響をわかりやすく解説</title>
+      <link>https://tsumitate-navi.net/articles/2026-07-15-原油価格はなぜ動く中東情勢と私たちの生活への影響.html</link>
+      <description>ガソリンや電気代が上がるたびに「原油価格が…」という言葉を聞きます。でも、なぜ中東の出来事が日本の家計に影響するのでしょう？仕組みをやさしく解説します。</description>
+      <pubDate>Wed, 15 Jul 2026 07:00:00 +0900</pubDate>
+      <guid>https://tsumitate-navi.net/articles/2026-07-15-原油価格はなぜ動く中東情勢と私たちの生活への影響.html</guid>
+    </item>
     <item>
       <title>緊急資金はいくら必要？投資との優先順位を初心者向けに解説</title>
       <link>https://tsumitate-navi.net/articles/2026-07-14-緊急資金はいくら必要投資との優先順位.html</link>
@@ -139,13 +146,6 @@
       <description>ガソリン代や電気代が上がるたびに「原油が高いから」と聞きますよね。でも、なぜ原油価格は動くのでしょうか？中東情勢との関係や、私たちの家計・投資への影響をやさしく解説します。</description>
       <pubDate>Thu, 25 Jun 2026 07:00:00 +0900</pubDate>
       <guid>https://tsumitate-navi.net/articles/2026-06-25-原油価格はなぜ動く中東情勢と私たちの生活への影響.html</guid>
-    </item>
-    <item>
-      <title>ETFとは？投資信託との違いをやさしく解説【初心者向け】</title>
-      <link>https://tsumitate-navi.net/articles/2026-06-24-ETFとは投資信託との違いをやさしく解説.html</link>
-      <description>「ETFって投資信託と何が違うの？」そんな疑問を持つ初心者の方へ。ETFの仕組みから投資信託との違い、メリット・デメリットまでをわかりやすく解説します。</description>
-      <pubDate>Wed, 24 Jun 2026 07:00:00 +0900</pubDate>
-      <guid>https://tsumitate-navi.net/articles/2026-06-24-ETFとは投資信託との違いをやさしく解説.html</guid>
     </item>
   </channel>
 </rss>
